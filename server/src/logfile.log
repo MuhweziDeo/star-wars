@@ -1,0 +1,181 @@
+{
+  level: 'error',
+  message: 'yayy yayy',
+  stack: 'Error: yayy\n' +
+    '    at Object.<anonymous> (C:\\Users\\saile\\MySpace\\Node-Articles\\Art1\\src\\app.ts:19:7)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1158:30)\n' +
+    '    at Module.m._compile (C:\\Users\\saile\\MySpace\\Node-Articles\\Art1\\node_modules\\ts-node\\src\\index.ts:858:23)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1178:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (C:\\Users\\saile\\MySpace\\Node-Articles\\Art1\\node_modules\\ts-node\\src\\index.ts:861:12)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:1002:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:901:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1044:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:77:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\saile\\MySpace\\Node-Articles\\Art1\\src\\main.ts:1:1)',
+  timestamp: '2020-08-02T10:15:14.072Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-08-02T10:15:45.741Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-08-02T10:15:58.660Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2020-08-02T10:40:11.348Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2021-04-30T17:06:06.291Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2021-04-30T17:06:32.438Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2021-04-30T17:08:26.082Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2021-04-30T17:08:29.169Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2021-04-30T17:08:52.403Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2021-04-30T17:11:15.426Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2021-04-30T17:11:46.968Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2021-04-30T17:11:57.418Z'
+}
+{
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-errors/dist/index.js',
+    '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-core/dist/runHttpQuery.js',
+    '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-core/dist/index.js',
+    '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-express/dist/index.js',
+    '/Users/muhweziaggrey/Desktop/projects/star-wars/server/src/main.ts'
+  ],
+  level: 'error',
+  message: "Cannot find module 'graphql'\n" +
+    'Require stack:\n' +
+    '- /Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-errors/dist/index.js\n' +
+    '- /Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-core/dist/runHttpQuery.js\n' +
+    '- /Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-core/dist/index.js\n' +
+    '- /Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-express/dist/index.js\n' +
+    "- /Users/muhweziaggrey/Desktop/projects/star-wars/server/src/main.ts Cannot find module 'graphql'\n" +
+    'Require stack:\n' +
+    '- /Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-errors/dist/index.js\n' +
+    '- /Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-core/dist/runHttpQuery.js\n' +
+    '- /Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-core/dist/index.js\n' +
+    '- /Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-express/dist/index.js\n' +
+    '- /Users/muhweziaggrey/Desktop/projects/star-wars/server/src/main.ts',
+  stack: "Error: Cannot find module 'graphql'\n" +
+    'Require stack:\n' +
+    '- /Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-errors/dist/index.js\n' +
+    '- /Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-core/dist/runHttpQuery.js\n' +
+    '- /Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-core/dist/index.js\n' +
+    '- /Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-express/dist/index.js\n' +
+    '- /Users/muhweziaggrey/Desktop/projects/star-wars/server/src/main.ts\n' +
+    '    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:965:15)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:841:27)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1025:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-errors/src/index.ts:1:1)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:985:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1025:19)',
+  timestamp: '2021-04-30T17:31:59.593Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2021-04-30T17:33:48.114Z'
+}
+{
+  level: 'error',
+  message: 'called start() with surprising state invoking serverWillStart called start() with surprising state invoking serverWillStart',
+  stack: 'Error: called start() with surprising state invoking serverWillStart\n' +
+    '    at ApolloServer.<anonymous> (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-core/src/ApolloServer.ts:510:13)\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at /Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-core/dist/ApolloServer.js:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-core/dist/ApolloServer.js:4:12)\n' +
+    '    at ApolloServer._start (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-core/dist/ApolloServer.js:226:16)\n' +
+    '    at ApolloServer.<anonymous> (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-core/src/ApolloServer.ts:499:23)\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at /Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-core/dist/ApolloServer.js:8:71\n' +
+    '    at new Promise (<anonymous>)',
+  timestamp: '2021-04-30T17:38:16.322Z'
+}
+{
+  level: 'error',
+  message: 'graphQLServer.listen is not a function graphQLServer.listen is not a function',
+  stack: 'TypeError: graphQLServer.listen is not a function\n' +
+    '    at Object.<anonymous> (/Users/muhweziaggrey/Desktop/projects/star-wars/server/src/main.ts:27:15)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Module.m._compile (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:858:23)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:861:12)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:985:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)\n' +
+    '    at main (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/bin.ts:227:14)\n' +
+    '    at Object.<anonymous> (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/bin.ts:513:3)',
+  timestamp: '2021-04-30T17:39:51.636Z'
+}
+{
+  level: 'error',
+  message: 'server.listen is not a function server.listen is not a function',
+  stack: 'TypeError: server.listen is not a function\n' +
+    '    at Object.<anonymous> (/Users/muhweziaggrey/Desktop/projects/star-wars/server/src/main.ts:27:8)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Module.m._compile (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:858:23)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:861:12)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:985:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)\n' +
+    '    at main (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/bin.ts:227:14)\n' +
+    '    at Object.<anonymous> (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/bin.ts:513:3)',
+  timestamp: '2021-04-30T17:40:14.077Z'
+}
+{
+  message: 'dev server up listening on PORT 5000',
+  level: 'info',
+  timestamp: '2021-04-30T17:40:48.304Z'
+}
+{
+  message: 'dev server up listening on PORT 5000 and ',
+  level: 'info',
+  timestamp: '2021-04-30T17:40:55.422Z'
+}
+{
+  message: 'dev server up listening on PORT 5000 and graphql is on /graphql',
+  level: 'info',
+  timestamp: '2021-04-30T17:41:06.284Z'
+}

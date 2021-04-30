@@ -1,0 +1,928 @@
+{
+  error: [96msrc/controllers/hero.controller.ts[0m:[93m31[0m:[93m28[0m - [91merror[0m[90m TS2304: [0mCannot find name 'heroService'.
+  
+  [7m31[0m  const updatedHero = await heroService.updateHero(hero);
+  [7m  [0m [91m                           ~~~~~~~~~~~[0m
+  [96msrc/controllers/hero.controller.ts[0m:[93m40[0m:[93m28[0m - [91merror[0m[90m TS2304: [0mCannot find name 'heroService'.
+  
+  [7m40[0m  const deletedHero = await heroService.deleteHero(parseInt(id));
+  [7m  [0m [91m                           ~~~~~~~~~~~[0m
+  ,
+  level: 'error',
+  message: 'uncaughtException: ⨯ Unable to compile TypeScript:\n' +
+    "\u001b[96msrc/controllers/hero.controller.ts\u001b[0m:\u001b[93m31\u001b[0m:\u001b[93m28\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2304: \u001b[0mCannot find name 'heroService'.\n" +
+    '\n' +
+    '\u001b[7m31\u001b[0m  const updatedHero = await heroService.updateHero(hero);\n' +
+    '\u001b[7m  \u001b[0m \u001b[91m                           ~~~~~~~~~~~\u001b[0m\n' +
+    "\u001b[96msrc/controllers/hero.controller.ts\u001b[0m:\u001b[93m40\u001b[0m:\u001b[93m28\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2304: \u001b[0mCannot find name 'heroService'.\n" +
+    '\n' +
+    '\u001b[7m40\u001b[0m  const deletedHero = await heroService.deleteHero(parseInt(id));\n' +
+    '\u001b[7m  \u001b[0m \u001b[91m                           ~~~~~~~~~~~\u001b[0m\n' +
+    '\n' +
+    'TSError: ⨯ Unable to compile TypeScript:\n' +
+    "\u001b[96msrc/controllers/hero.controller.ts\u001b[0m:\u001b[93m31\u001b[0m:\u001b[93m28\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2304: \u001b[0mCannot find name 'heroService'.\n" +
+    '\n' +
+    '\u001b[7m31\u001b[0m  const updatedHero = await heroService.updateHero(hero);\n' +
+    '\u001b[7m  \u001b[0m \u001b[91m                           ~~~~~~~~~~~\u001b[0m\n' +
+    "\u001b[96msrc/controllers/hero.controller.ts\u001b[0m:\u001b[93m40\u001b[0m:\u001b[93m28\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2304: \u001b[0mCannot find name 'heroService'.\n" +
+    '\n' +
+    '\u001b[7m40\u001b[0m  const deletedHero = await heroService.deleteHero(parseInt(id));\n' +
+    '\u001b[7m  \u001b[0m \u001b[91m                           ~~~~~~~~~~~\u001b[0m\n' +
+    '\n' +
+    '    at createTSError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:434:12)\n' +
+    '    at reportTSError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:438:19)\n' +
+    '    at getOutput (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:578:36)\n' +
+    '    at Object.compile (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:775:32)\n' +
+    '    at Module.m._compile (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:858:43)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:861:12)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:985:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1025:19)',
+  stack: 'TSError: ⨯ Unable to compile TypeScript:\n' +
+    "\u001b[96msrc/controllers/hero.controller.ts\u001b[0m:\u001b[93m31\u001b[0m:\u001b[93m28\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2304: \u001b[0mCannot find name 'heroService'.\n" +
+    '\n' +
+    '\u001b[7m31\u001b[0m  const updatedHero = await heroService.updateHero(hero);\n' +
+    '\u001b[7m  \u001b[0m \u001b[91m                           ~~~~~~~~~~~\u001b[0m\n' +
+    "\u001b[96msrc/controllers/hero.controller.ts\u001b[0m:\u001b[93m40\u001b[0m:\u001b[93m28\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2304: \u001b[0mCannot find name 'heroService'.\n" +
+    '\n' +
+    '\u001b[7m40\u001b[0m  const deletedHero = await heroService.deleteHero(parseInt(id));\n' +
+    '\u001b[7m  \u001b[0m \u001b[91m                           ~~~~~~~~~~~\u001b[0m\n' +
+    '\n' +
+    '    at createTSError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:434:12)\n' +
+    '    at reportTSError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:438:19)\n' +
+    '    at getOutput (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:578:36)\n' +
+    '    at Object.compile (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:775:32)\n' +
+    '    at Module.m._compile (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:858:43)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:861:12)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:985:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1025:19)',
+  exception: true,
+  date: 'Fri Apr 30 2021 20:11:26 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 21154,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/muhweziaggrey/Desktop/projects/star-wars/server',
+    execPath: '/Users/muhweziaggrey/.nvm/versions/node/v12.18.4/bin/node',
+    version: 'v12.18.4',
+    argv: [
+      '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/.bin/ts-node',
+      '/Users/muhweziaggrey/Desktop/projects/star-wars/server/src/main.ts'
+    ],
+    memoryUsage: {
+      rss: 158904320,
+      heapTotal: 122695680,
+      heapUsed: 104833280,
+      external: 2068881,
+      arrayBuffers: 298400
+    }
+  },
+  os: { loadavg: [ 5.74609375, 4.353515625, 3.8203125 ], uptime: 35229 },
+  trace: [
+    {
+      column: 12,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts',
+      function: 'createTSError',
+      line: 434,
+      method: null,
+      native: false
+    },
+    {
+      column: 19,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts',
+      function: 'reportTSError',
+      line: 438,
+      method: null,
+      native: false
+    },
+    {
+      column: 36,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts',
+      function: 'getOutput',
+      line: 578,
+      method: null,
+      native: false
+    },
+    {
+      column: 32,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts',
+      function: 'Object.compile',
+      line: 775,
+      method: 'compile',
+      native: false
+    },
+    {
+      column: 43,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts',
+      function: 'Module.m._compile',
+      line: 858,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1157,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 12,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts',
+      function: 'Object.require.extensions.<computed> [as .ts]',
+      line: 861,
+      method: 'ts]',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 985,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 878,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1025,
+      method: 'require',
+      native: false
+    }
+  ],
+  timestamp: '2021-04-30T17:11:26.383Z'
+}
+{
+  error: [96msrc/controllers/hero.controller.ts[0m:[93m39[0m:[93m6[0m - [91merror[0m[90m TS2552: [0mCannot find name 'deletedHero'. Did you mean 'deleteHero'?
+  
+  [7m39[0m  if (deletedHero) {
+  [7m  [0m [91m     ~~~~~~~~~~~[0m
+  ,
+  level: 'error',
+  message: 'uncaughtException: ⨯ Unable to compile TypeScript:\n' +
+    "\u001b[96msrc/controllers/hero.controller.ts\u001b[0m:\u001b[93m39\u001b[0m:\u001b[93m6\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2552: \u001b[0mCannot find name 'deletedHero'. Did you mean 'deleteHero'?\n" +
+    '\n' +
+    '\u001b[7m39\u001b[0m  if (deletedHero) {\n' +
+    '\u001b[7m  \u001b[0m \u001b[91m     ~~~~~~~~~~~\u001b[0m\n' +
+    '\n' +
+    'TSError: ⨯ Unable to compile TypeScript:\n' +
+    "\u001b[96msrc/controllers/hero.controller.ts\u001b[0m:\u001b[93m39\u001b[0m:\u001b[93m6\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2552: \u001b[0mCannot find name 'deletedHero'. Did you mean 'deleteHero'?\n" +
+    '\n' +
+    '\u001b[7m39\u001b[0m  if (deletedHero) {\n' +
+    '\u001b[7m  \u001b[0m \u001b[91m     ~~~~~~~~~~~\u001b[0m\n' +
+    '\n' +
+    '    at createTSError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:434:12)\n' +
+    '    at reportTSError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:438:19)\n' +
+    '    at getOutput (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:578:36)\n' +
+    '    at Object.compile (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:775:32)\n' +
+    '    at Module.m._compile (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:858:43)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:861:12)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:985:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1025:19)',
+  stack: 'TSError: ⨯ Unable to compile TypeScript:\n' +
+    "\u001b[96msrc/controllers/hero.controller.ts\u001b[0m:\u001b[93m39\u001b[0m:\u001b[93m6\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2552: \u001b[0mCannot find name 'deletedHero'. Did you mean 'deleteHero'?\n" +
+    '\n' +
+    '\u001b[7m39\u001b[0m  if (deletedHero) {\n' +
+    '\u001b[7m  \u001b[0m \u001b[91m     ~~~~~~~~~~~\u001b[0m\n' +
+    '\n' +
+    '    at createTSError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:434:12)\n' +
+    '    at reportTSError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:438:19)\n' +
+    '    at getOutput (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:578:36)\n' +
+    '    at Object.compile (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:775:32)\n' +
+    '    at Module.m._compile (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:858:43)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:861:12)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:985:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1025:19)',
+  exception: true,
+  date: 'Fri Apr 30 2021 20:11:34 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 21206,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/muhweziaggrey/Desktop/projects/star-wars/server',
+    execPath: '/Users/muhweziaggrey/.nvm/versions/node/v12.18.4/bin/node',
+    version: 'v12.18.4',
+    argv: [
+      '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/.bin/ts-node',
+      '/Users/muhweziaggrey/Desktop/projects/star-wars/server/src/main.ts'
+    ],
+    memoryUsage: {
+      rss: 163254272,
+      heapTotal: 127414272,
+      heapUsed: 96529504,
+      external: 1820827,
+      arrayBuffers: 50346
+    }
+  },
+  os: { loadavg: [ 6.796875, 4.634765625, 3.9267578125 ], uptime: 35237 },
+  trace: [
+    {
+      column: 12,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts',
+      function: 'createTSError',
+      line: 434,
+      method: null,
+      native: false
+    },
+    {
+      column: 19,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts',
+      function: 'reportTSError',
+      line: 438,
+      method: null,
+      native: false
+    },
+    {
+      column: 36,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts',
+      function: 'getOutput',
+      line: 578,
+      method: null,
+      native: false
+    },
+    {
+      column: 32,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts',
+      function: 'Object.compile',
+      line: 775,
+      method: 'compile',
+      native: false
+    },
+    {
+      column: 43,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts',
+      function: 'Module.m._compile',
+      line: 858,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1157,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 12,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts',
+      function: 'Object.require.extensions.<computed> [as .ts]',
+      line: 861,
+      method: 'ts]',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 985,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 878,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1025,
+      method: 'require',
+      native: false
+    }
+  ],
+  timestamp: '2021-04-30T17:11:34.994Z'
+}
+{
+  error: Error: Cannot find module 'graphql'
+  Require stack:
+  - /Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-errors/dist/index.js
+  - /Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-core/dist/runHttpQuery.js
+  - /Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-core/dist/index.js
+  - /Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-express/dist/index.js
+  - /Users/muhweziaggrey/Desktop/projects/star-wars/server/src/main.ts
+      at Function.Module._resolveFilename (internal/modules/cjs/loader.js:965:15)
+      at Function.Module._load (internal/modules/cjs/loader.js:841:27)
+      at Module.require (internal/modules/cjs/loader.js:1025:19)
+      at require (internal/modules/cjs/helpers.js:72:18)
+      at Object.<anonymous> (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-errors/src/index.ts:1:1)
+      at Module._compile (internal/modules/cjs/loader.js:1137:30)
+      at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+      at Module.load (internal/modules/cjs/loader.js:985:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+      at Module.require (internal/modules/cjs/loader.js:1025:19) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-errors/dist/index.js',
+      '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-core/dist/runHttpQuery.js',
+      '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-core/dist/index.js',
+      '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-express/dist/index.js',
+      '/Users/muhweziaggrey/Desktop/projects/star-wars/server/src/main.ts'
+    ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module 'graphql'\n" +
+    'Require stack:\n' +
+    '- /Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-errors/dist/index.js\n' +
+    '- /Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-core/dist/runHttpQuery.js\n' +
+    '- /Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-core/dist/index.js\n' +
+    '- /Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-express/dist/index.js\n' +
+    '- /Users/muhweziaggrey/Desktop/projects/star-wars/server/src/main.ts\n' +
+    "Error: Cannot find module 'graphql'\n" +
+    'Require stack:\n' +
+    '- /Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-errors/dist/index.js\n' +
+    '- /Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-core/dist/runHttpQuery.js\n' +
+    '- /Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-core/dist/index.js\n' +
+    '- /Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-express/dist/index.js\n' +
+    '- /Users/muhweziaggrey/Desktop/projects/star-wars/server/src/main.ts\n' +
+    '    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:965:15)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:841:27)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1025:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-errors/src/index.ts:1:1)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:985:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1025:19)',
+  stack: "Error: Cannot find module 'graphql'\n" +
+    'Require stack:\n' +
+    '- /Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-errors/dist/index.js\n' +
+    '- /Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-core/dist/runHttpQuery.js\n' +
+    '- /Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-core/dist/index.js\n' +
+    '- /Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-express/dist/index.js\n' +
+    '- /Users/muhweziaggrey/Desktop/projects/star-wars/server/src/main.ts\n' +
+    '    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:965:15)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:841:27)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1025:19)\n' +
+    '    at require (internal/modules/cjs/helpers.js:72:18)\n' +
+    '    at Object.<anonymous> (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-errors/src/index.ts:1:1)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:985:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1025:19)',
+  exception: true,
+  date: 'Fri Apr 30 2021 20:31:59 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 23387,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/muhweziaggrey/Desktop/projects/star-wars/server',
+    execPath: '/Users/muhweziaggrey/.nvm/versions/node/v12.18.4/bin/node',
+    version: 'v12.18.4',
+    argv: [
+      '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/.bin/ts-node',
+      '/Users/muhweziaggrey/Desktop/projects/star-wars/server/src/main.ts'
+    ],
+    memoryUsage: {
+      rss: 191934464,
+      heapTotal: 150691840,
+      heapUsed: 122059568,
+      external: 2006099,
+      arrayBuffers: 148634
+    }
+  },
+  os: {
+    loadavg: [ 4.787109375, 6.03173828125, 5.14013671875 ],
+    uptime: 36462
+  },
+  trace: [
+    {
+      column: 15,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._resolveFilename',
+      line: 965,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 841,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1025,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'internal/modules/cjs/helpers.js',
+      function: 'require',
+      line: 72,
+      method: null,
+      native: false
+    },
+    {
+      column: 1,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-errors/src/index.ts',
+      function: null,
+      line: 1,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1137,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1157,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 985,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 878,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1025,
+      method: 'require',
+      native: false
+    }
+  ],
+  timestamp: '2021-04-30T17:31:59.588Z'
+}
+{
+  error: Error: called start() with surprising state invoking serverWillStart
+      at ApolloServer.<anonymous> (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-core/src/ApolloServer.ts:510:13)
+      at Generator.next (<anonymous>)
+      at /Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-core/dist/ApolloServer.js:8:71
+      at new Promise (<anonymous>)
+      at __awaiter (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-core/dist/ApolloServer.js:4:12)
+      at ApolloServer._start (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-core/dist/ApolloServer.js:226:16)
+      at ApolloServer.<anonymous> (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-core/src/ApolloServer.ts:499:23)
+      at Generator.next (<anonymous>)
+      at /Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-core/dist/ApolloServer.js:8:71
+      at new Promise (<anonymous>),
+  level: 'error',
+  message: 'uncaughtException: called start() with surprising state invoking serverWillStart\n' +
+    'Error: called start() with surprising state invoking serverWillStart\n' +
+    '    at ApolloServer.<anonymous> (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-core/src/ApolloServer.ts:510:13)\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at /Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-core/dist/ApolloServer.js:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-core/dist/ApolloServer.js:4:12)\n' +
+    '    at ApolloServer._start (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-core/dist/ApolloServer.js:226:16)\n' +
+    '    at ApolloServer.<anonymous> (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-core/src/ApolloServer.ts:499:23)\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at /Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-core/dist/ApolloServer.js:8:71\n' +
+    '    at new Promise (<anonymous>)',
+  stack: 'Error: called start() with surprising state invoking serverWillStart\n' +
+    '    at ApolloServer.<anonymous> (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-core/src/ApolloServer.ts:510:13)\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at /Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-core/dist/ApolloServer.js:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-core/dist/ApolloServer.js:4:12)\n' +
+    '    at ApolloServer._start (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-core/dist/ApolloServer.js:226:16)\n' +
+    '    at ApolloServer.<anonymous> (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-core/src/ApolloServer.ts:499:23)\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at /Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-core/dist/ApolloServer.js:8:71\n' +
+    '    at new Promise (<anonymous>)',
+  exception: true,
+  date: 'Fri Apr 30 2021 20:38:16 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 23908,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/muhweziaggrey/Desktop/projects/star-wars/server',
+    execPath: '/Users/muhweziaggrey/.nvm/versions/node/v12.18.4/bin/node',
+    version: 'v12.18.4',
+    argv: [
+      '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/.bin/ts-node',
+      '/Users/muhweziaggrey/Desktop/projects/star-wars/server/src/main.ts'
+    ],
+    memoryUsage: {
+      rss: 208613376,
+      heapTotal: 159989760,
+      heapUsed: 140881656,
+      external: 3712366,
+      arrayBuffers: 1854901
+    }
+  },
+  os: {
+    loadavg: [ 5.19482421875, 4.6025390625, 4.6982421875 ],
+    uptime: 36839
+  },
+  trace: [
+    {
+      column: 13,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-core/src/ApolloServer.ts',
+      function: null,
+      line: 510,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'Generator.next',
+      line: null,
+      method: 'next',
+      native: false
+    },
+    {
+      column: 71,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-core/dist/ApolloServer.js',
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'new Promise',
+      line: null,
+      method: null,
+      native: false
+    },
+    {
+      column: 12,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-core/dist/ApolloServer.js',
+      function: '__awaiter',
+      line: 4,
+      method: null,
+      native: false
+    },
+    {
+      column: 16,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-core/dist/ApolloServer.js',
+      function: 'ApolloServer._start',
+      line: 226,
+      method: '_start',
+      native: false
+    },
+    {
+      column: 23,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-core/src/ApolloServer.ts',
+      function: null,
+      line: 499,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'Generator.next',
+      line: null,
+      method: 'next',
+      native: false
+    },
+    {
+      column: 71,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/apollo-server-core/dist/ApolloServer.js',
+      function: null,
+      line: 8,
+      method: null,
+      native: false
+    },
+    {
+      column: null,
+      file: null,
+      function: 'new Promise',
+      line: null,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2021-04-30T17:38:16.318Z'
+}
+{
+  error: TypeError: graphQLServer.listen is not a function
+      at Object.<anonymous> (/Users/muhweziaggrey/Desktop/projects/star-wars/server/src/main.ts:27:15)
+      at Module._compile (internal/modules/cjs/loader.js:1137:30)
+      at Module.m._compile (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:858:23)
+      at Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+      at Object.require.extensions.<computed> [as .ts] (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:861:12)
+      at Module.load (internal/modules/cjs/loader.js:985:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+      at main (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/bin.ts:227:14)
+      at Object.<anonymous> (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/bin.ts:513:3),
+  level: 'error',
+  message: 'uncaughtException: graphQLServer.listen is not a function\n' +
+    'TypeError: graphQLServer.listen is not a function\n' +
+    '    at Object.<anonymous> (/Users/muhweziaggrey/Desktop/projects/star-wars/server/src/main.ts:27:15)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Module.m._compile (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:858:23)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:861:12)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:985:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)\n' +
+    '    at main (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/bin.ts:227:14)\n' +
+    '    at Object.<anonymous> (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/bin.ts:513:3)',
+  stack: 'TypeError: graphQLServer.listen is not a function\n' +
+    '    at Object.<anonymous> (/Users/muhweziaggrey/Desktop/projects/star-wars/server/src/main.ts:27:15)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Module.m._compile (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:858:23)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:861:12)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:985:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)\n' +
+    '    at main (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/bin.ts:227:14)\n' +
+    '    at Object.<anonymous> (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/bin.ts:513:3)',
+  exception: true,
+  date: 'Fri Apr 30 2021 20:39:51 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 23974,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/muhweziaggrey/Desktop/projects/star-wars/server',
+    execPath: '/Users/muhweziaggrey/.nvm/versions/node/v12.18.4/bin/node',
+    version: 'v12.18.4',
+    argv: [
+      '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/.bin/ts-node',
+      '/Users/muhweziaggrey/Desktop/projects/star-wars/server/src/main.ts'
+    ],
+    memoryUsage: {
+      rss: 203943936,
+      heapTotal: 163659776,
+      heapUsed: 134966968,
+      external: 2045993,
+      arrayBuffers: 188528
+    }
+  },
+  os: {
+    loadavg: [ 3.859375, 4.37744140625, 4.60107421875 ],
+    uptime: 36934
+  },
+  trace: [
+    {
+      column: 15,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/src/main.ts',
+      function: null,
+      line: 27,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1137,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 23,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts',
+      function: 'Module.m._compile',
+      line: 858,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1157,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 12,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts',
+      function: 'Object.require.extensions.<computed> [as .ts]',
+      line: 861,
+      method: 'ts]',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 985,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 878,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/run_main.js',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 71,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 14,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/bin.ts',
+      function: 'main',
+      line: 227,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/bin.ts',
+      function: null,
+      line: 513,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2021-04-30T17:39:51.632Z'
+}
+{
+  error: TypeError: server.listen is not a function
+      at Object.<anonymous> (/Users/muhweziaggrey/Desktop/projects/star-wars/server/src/main.ts:27:8)
+      at Module._compile (internal/modules/cjs/loader.js:1137:30)
+      at Module.m._compile (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:858:23)
+      at Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+      at Object.require.extensions.<computed> [as .ts] (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:861:12)
+      at Module.load (internal/modules/cjs/loader.js:985:32)
+      at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+      at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)
+      at main (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/bin.ts:227:14)
+      at Object.<anonymous> (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/bin.ts:513:3),
+  level: 'error',
+  message: 'uncaughtException: server.listen is not a function\n' +
+    'TypeError: server.listen is not a function\n' +
+    '    at Object.<anonymous> (/Users/muhweziaggrey/Desktop/projects/star-wars/server/src/main.ts:27:8)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Module.m._compile (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:858:23)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:861:12)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:985:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)\n' +
+    '    at main (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/bin.ts:227:14)\n' +
+    '    at Object.<anonymous> (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/bin.ts:513:3)',
+  stack: 'TypeError: server.listen is not a function\n' +
+    '    at Object.<anonymous> (/Users/muhweziaggrey/Desktop/projects/star-wars/server/src/main.ts:27:8)\n' +
+    '    at Module._compile (internal/modules/cjs/loader.js:1137:30)\n' +
+    '    at Module.m._compile (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:858:23)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:861:12)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:985:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:71:12)\n' +
+    '    at main (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/bin.ts:227:14)\n' +
+    '    at Object.<anonymous> (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/bin.ts:513:3)',
+  exception: true,
+  date: 'Fri Apr 30 2021 20:40:14 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 24041,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/muhweziaggrey/Desktop/projects/star-wars/server',
+    execPath: '/Users/muhweziaggrey/.nvm/versions/node/v12.18.4/bin/node',
+    version: 'v12.18.4',
+    argv: [
+      '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/.bin/ts-node',
+      '/Users/muhweziaggrey/Desktop/projects/star-wars/server/src/main.ts'
+    ],
+    memoryUsage: {
+      rss: 203739136,
+      heapTotal: 163659776,
+      heapUsed: 135204344,
+      external: 2045993,
+      arrayBuffers: 188528
+    }
+  },
+  os: { loadavg: [ 3.45166015625, 4.234375, 4.5419921875 ], uptime: 36957 },
+  trace: [
+    {
+      column: 8,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/src/main.ts',
+      function: null,
+      line: 27,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._compile',
+      line: 1137,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 23,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts',
+      function: 'Module.m._compile',
+      line: 858,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1157,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 12,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts',
+      function: 'Object.require.extensions.<computed> [as .ts]',
+      line: 861,
+      method: 'ts]',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 985,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 878,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'internal/modules/run_main.js',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 71,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 14,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/bin.ts',
+      function: 'main',
+      line: 227,
+      method: null,
+      native: false
+    },
+    {
+      column: 3,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/bin.ts',
+      function: null,
+      line: 513,
+      method: null,
+      native: false
+    }
+  ],
+  timestamp: '2021-04-30T17:40:14.073Z'
+}
