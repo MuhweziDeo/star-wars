@@ -15,7 +15,7 @@ describe("Routes", () => {
         expect(spy).toHaveBeenCalled();
     });
 
-    it("test routes()", () => {
+    it("test router()", () => {
         const app = express();
         const fsSpy = jest.spyOn(fs, "createWriteStream").mockReturnValueOnce({} as any);
         const spy = jest.spyOn(app, "use");
