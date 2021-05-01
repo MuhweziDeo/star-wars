@@ -1,26 +1,42 @@
 import { app } from "./app";
+import { ApolloServer, gql } from 'apollo-server-express';
 import { Request, Response } from "express";
 import winstonLogger from "./startup/logger";
-import { ApolloServer, gql } from 'apollo-server-express';
- 
+
+import { getPeople } from './resolvers';
+
 const typeDefs = gql`
+    type People {
+        name: String
+        height: String
+        mass: String
+        gender: String
+        homeworld: String
+    }
+    
+    type PeopleQueryResponse {
+        count: Int
+        results: [People]
+    }
+    scalar Date
+    
   type Query {
-    hello: String
+    people(page: Int ): PeopleQueryResponse  
   }
 `;
  
 const resolvers = {
   Query: {
-    hello: () => 'Hello world!',
+    people: getPeople
   },
 };
 
-const server = new ApolloServer({ typeDefs, resolvers });
+const server = new ApolloServer({ typeDefs, resolvers, tracing: true });
 
 server.applyMiddleware({ app })
 
 app.get("/", (req: Request, res: Response) => {
-	res.json({ "greet": "hello" });
+	res.json({ "message": `To access the graphql server go to ${server.graphqlPath}` });
 });
 const PORT = process.env.PORT || 5000;
 

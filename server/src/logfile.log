@@ -179,3 +179,191 @@
   level: 'info',
   timestamp: '2021-04-30T17:41:06.284Z'
 }
+{ message: 'dev server up listening on PORT 5000 and graphql is on /graphql',
+  level: 'info',
+  timestamp: '2021-05-01T16:56:45.938Z' }
+{ message: 'dev server up listening on PORT 5000 and graphql is on /graphql',
+  level: 'info',
+  timestamp: '2021-05-01T17:10:51.120Z' }
+{ message: 'dev server up listening on PORT 5000 and graphql is on /graphql',
+  level: 'info',
+  timestamp: '2021-05-01T17:11:29.539Z' }
+{ message: 'dev server up listening on PORT 5000 and graphql is on /graphql',
+  level: 'info',
+  timestamp: '2021-05-01T17:11:47.312Z' }
+{ message: 'dev server up listening on PORT 5000 and graphql is on /graphql',
+  level: 'info',
+  timestamp: '2021-05-01T17:12:03.041Z' }
+{ message: 'dev server up listening on PORT 5000 and graphql is on /graphql',
+  level: 'info',
+  timestamp: '2021-05-01T17:12:25.396Z' }
+{ message: 'dev server up listening on PORT 5000 and graphql is on /graphql',
+  level: 'info',
+  timestamp: '2021-05-01T17:12:44.552Z' }
+{ message: 'dev server up listening on PORT 5000 and graphql is on /graphql',
+  level: 'info',
+  timestamp: '2021-05-01T17:12:52.345Z' }
+{ message: 'dev server up listening on PORT 5000 and graphql is on /graphql',
+  level: 'info',
+  timestamp: '2021-05-01T17:15:16.372Z' }
+{ message: 'Syntax Error: Expected Name, found <EOF>. Syntax Error: Expected Name, found <EOF>.',
+  locations: [ { line: 7, column: 1 } ],
+  level: 'error',
+  stack: 'GraphQLError: Syntax Error: Expected Name, found <EOF>.\n    at syntaxError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/error/syntaxError.js:15:10)\n    at Parser.expectToken (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1413:40)\n    at Parser.parseName (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:98:22)\n    at Parser.parseObjectTypeDefinition (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:809:21)\n    at Parser.parseTypeSystemDefinition (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:708:23)\n    at Parser.parseDefinition (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:150:23)\n    at Parser.many (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1523:26)\n    at Parser.parseDocument (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:115:25)\n    at Object.parse (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:31:17)\n    at parseDocument (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql-tag/src/index.ts:96:20)',
+  timestamp: '2021-05-01T17:18:34.408Z' }
+{ message: 'Syntax Error: Expected Name, found "}". Syntax Error: Expected Name, found "}".',
+  locations: [ { line: 8, column: 3 } ],
+  level: 'error',
+  stack: 'GraphQLError: Syntax Error: Expected Name, found "}".\n    at syntaxError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/error/syntaxError.js:15:10)\n    at Parser.expectToken (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1413:40)\n    at Parser.parseName (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:98:22)\n    at Parser.parseFieldDefinition (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:879:21)\n    at Parser.optionalMany (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1503:28)\n    at Parser.parseFieldsDefinition (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:868:17)\n    at Parser.parseObjectTypeDefinition (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:812:23)\n    at Parser.parseTypeSystemDefinition (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:708:23)\n    at Parser.parseDefinition (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:150:23)\n    at Parser.many (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1523:26)',
+  timestamp: '2021-05-01T17:19:17.413Z' }
+{ message: 'Syntax Error: Expected Name, found "}". Syntax Error: Expected Name, found "}".',
+  locations: [ { line: 8, column: 3 } ],
+  level: 'error',
+  stack: 'GraphQLError: Syntax Error: Expected Name, found "}".\n    at syntaxError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/error/syntaxError.js:15:10)\n    at Parser.expectToken (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1413:40)\n    at Parser.parseName (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:98:22)\n    at Parser.parseFieldDefinition (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:879:21)\n    at Parser.optionalMany (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1503:28)\n    at Parser.parseFieldsDefinition (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:868:17)\n    at Parser.parseObjectTypeDefinition (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:812:23)\n    at Parser.parseTypeSystemDefinition (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:708:23)\n    at Parser.parseDefinition (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:150:23)\n    at Parser.many (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1523:26)',
+  timestamp: '2021-05-01T17:19:32.912Z' }
+{ message: 'Syntax Error: Expected Name, found "}". Syntax Error: Expected Name, found "}".',
+  locations: [ { line: 8, column: 3 } ],
+  level: 'error',
+  stack: 'GraphQLError: Syntax Error: Expected Name, found "}".\n    at syntaxError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/error/syntaxError.js:15:10)\n    at Parser.expectToken (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1413:40)\n    at Parser.parseName (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:98:22)\n    at Parser.parseFieldDefinition (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:879:21)\n    at Parser.optionalMany (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1503:28)\n    at Parser.parseFieldsDefinition (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:868:17)\n    at Parser.parseObjectTypeDefinition (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:812:23)\n    at Parser.parseTypeSystemDefinition (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:708:23)\n    at Parser.parseDefinition (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:150:23)\n    at Parser.many (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1523:26)',
+  timestamp: '2021-05-01T17:20:51.912Z' }
+{ message: 'Syntax Error: Expected Name, found "}". Syntax Error: Expected Name, found "}".',
+  locations: [ { line: 8, column: 3 } ],
+  level: 'error',
+  stack: 'GraphQLError: Syntax Error: Expected Name, found "}".\n    at syntaxError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/error/syntaxError.js:15:10)\n    at Parser.expectToken (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1413:40)\n    at Parser.parseName (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:98:22)\n    at Parser.parseFieldDefinition (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:879:21)\n    at Parser.optionalMany (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1503:28)\n    at Parser.parseFieldsDefinition (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:868:17)\n    at Parser.parseObjectTypeDefinition (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:812:23)\n    at Parser.parseTypeSystemDefinition (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:708:23)\n    at Parser.parseDefinition (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:150:23)\n    at Parser.many (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1523:26)',
+  timestamp: '2021-05-01T17:23:18.960Z' }
+{ message: 'Syntax Error: Expected Name, found "}". Syntax Error: Expected Name, found "}".',
+  locations: [ { line: 8, column: 3 } ],
+  level: 'error',
+  stack: 'GraphQLError: Syntax Error: Expected Name, found "}".\n    at syntaxError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/error/syntaxError.js:15:10)\n    at Parser.expectToken (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1413:40)\n    at Parser.parseName (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:98:22)\n    at Parser.parseFieldDefinition (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:879:21)\n    at Parser.optionalMany (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1503:28)\n    at Parser.parseFieldsDefinition (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:868:17)\n    at Parser.parseObjectTypeDefinition (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:812:23)\n    at Parser.parseTypeSystemDefinition (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:708:23)\n    at Parser.parseDefinition (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:150:23)\n    at Parser.many (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1523:26)',
+  timestamp: '2021-05-01T17:24:03.260Z' }
+{ message: 'dev server up listening on PORT 5000 and graphql is on /graphql',
+  level: 'info',
+  timestamp: '2021-05-01T17:24:49.270Z' }
+{ message: 'dev server up listening on PORT 5000 and graphql is on /graphql',
+  level: 'info',
+  timestamp: '2021-05-01T17:27:27.659Z' }
+{ message: 'dev server up listening on PORT 5000 and graphql is on /graphql',
+  level: 'info',
+  timestamp: '2021-05-01T17:28:15.533Z' }
+{ message: 'dev server up listening on PORT 5000 and graphql is on /graphql',
+  level: 'info',
+  timestamp: '2021-05-01T17:30:18.817Z' }
+{ message: 'dev server up listening on PORT 5000 and graphql is on /graphql',
+  level: 'info',
+  timestamp: '2021-05-01T17:34:06.052Z' }
+{ message: 'dev server up listening on PORT 5000 and graphql is on /graphql',
+  level: 'info',
+  timestamp: '2021-05-01T17:35:55.713Z' }
+{ message: 'Syntax Error: Expected ":", found ")". Syntax Error: Expected ":", found ")".',
+  locations: [ { line: 35, column: 31 } ],
+  level: 'error',
+  stack: 'GraphQLError: Syntax Error: Expected ":", found ")".\n    at syntaxError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/error/syntaxError.js:15:10)\n    at Parser.expectToken (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1413:40)\n    at Parser.parseInputValueDef (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:912:10)\n    at Parser.optionalMany (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1503:28)\n    at Parser.parseArgumentDefs (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:900:17)\n    at Parser.parseFieldDefinition (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:880:21)\n    at Parser.optionalMany (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1503:28)\n    at Parser.parseFieldsDefinition (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:868:17)\n    at Parser.parseObjectTypeDefinition (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:812:23)\n    at Parser.parseTypeSystemDefinition (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:708:23)',
+  timestamp: '2021-05-01T17:40:04.035Z' }
+{ message: 'dev server up listening on PORT 5000 and graphql is on /graphql',
+  level: 'info',
+  timestamp: '2021-05-01T17:40:36.926Z' }
+{ message: 'dev server up listening on PORT 5000 and graphql is on /graphql',
+  level: 'info',
+  timestamp: '2021-05-01T17:41:17.444Z' }
+{ message: 'dev server up listening on PORT 5000 and graphql is on /graphql',
+  level: 'info',
+  timestamp: '2021-05-01T17:42:57.464Z' }
+{ message: 'dev server up listening on PORT 5000 and graphql is on /graphql',
+  level: 'info',
+  timestamp: '2021-05-01T17:43:42.332Z' }
+{ message: 'dev server up listening on PORT 5000 and graphql is on /graphql',
+  level: 'info',
+  timestamp: '2021-05-01T17:44:13.947Z' }
+{ message: 'dev server up listening on PORT 5000 and graphql is on /graphql',
+  level: 'info',
+  timestamp: '2021-05-01T17:46:50.420Z' }
+{ message: 'dev server up listening on PORT 5000 and graphql is on /graphql',
+  level: 'info',
+  timestamp: '2021-05-01T17:48:04.178Z' }
+{ message: 'dev server up listening on PORT 5000 and graphql is on /graphql',
+  level: 'info',
+  timestamp: '2021-05-01T17:51:30.075Z' }
+{ message: 'dev server up listening on PORT 5000 and graphql is on /graphql',
+  level: 'info',
+  timestamp: '2021-05-01T17:54:09.028Z' }
+{ message: 'dev server up listening on PORT 5000 and graphql is on /graphql',
+  level: 'info',
+  timestamp: '2021-05-01T18:12:25.381Z' }
+{ message: 'dev server up listening on PORT 5000 and graphql is on /graphql',
+  level: 'info',
+  timestamp: '2021-05-01T18:12:51.761Z' }
+{ message: 'dev server up listening on PORT 5000 and graphql is on /graphql',
+  level: 'info',
+  timestamp: '2021-05-01T18:13:23.249Z' }
+{ message: 'dev server up listening on PORT 5000 and graphql is on /graphql',
+  level: 'info',
+  timestamp: '2021-05-01T18:15:08.809Z' }
+{ message: 'dev server up listening on PORT 5000 and graphql is on /graphql',
+  level: 'info',
+  timestamp: '2021-05-01T18:16:01.191Z' }
+{ message: 'dev server up listening on PORT 5000 and graphql is on /graphql',
+  level: 'info',
+  timestamp: '2021-05-01T18:19:29.738Z' }
+{ message: 'dev server up listening on PORT 5000 and graphql is on /graphql',
+  level: 'info',
+  timestamp: '2021-05-01T18:22:38.019Z' }
+{ message: 'dev server up listening on PORT 5000 and graphql is on /graphql',
+  level: 'info',
+  timestamp: '2021-05-01T18:24:05.826Z' }
+{ message: 'dev server up listening on PORT 5000 and graphql is on /graphql',
+  level: 'info',
+  timestamp: '2021-05-01T18:28:07.105Z' }
+{ message: 'dev server up listening on PORT 5000 and graphql is on /graphql',
+  level: 'info',
+  timestamp: '2021-05-01T18:29:05.853Z' }
+{ message: 'dev server up listening on PORT 5000 and graphql is on /graphql',
+  level: 'info',
+  timestamp: '2021-05-01T18:41:41.737Z' }
+{ message: 'dev server up listening on PORT 5000 and graphql is on /graphql',
+  level: 'info',
+  timestamp: '2021-05-01T18:42:40.583Z' }
+{ message: 'dev server up listening on PORT 5000 and graphql is on /graphql',
+  level: 'info',
+  timestamp: '2021-05-01T18:43:56.861Z' }
+{ message: 'dev server up listening on PORT 5000 and graphql is on /graphql',
+  level: 'info',
+  timestamp: '2021-05-01T18:45:19.471Z' }
+{ message: 'dev server up listening on PORT 5000 and graphql is on /graphql',
+  level: 'info',
+  timestamp: '2021-05-01T18:48:18.324Z' }
+{ message: 'dev server up listening on PORT 5000 and graphql is on /graphql',
+  level: 'info',
+  timestamp: '2021-05-01T18:48:45.248Z' }
+{ message: 'dev server up listening on PORT 5000 and graphql is on /graphql',
+  level: 'info',
+  timestamp: '2021-05-01T18:49:40.400Z' }
+{ message: 'dev server up listening on PORT 5000 and graphql is on /graphql',
+  level: 'info',
+  timestamp: '2021-05-01T18:50:14.334Z' }
+{ message: 'dev server up listening on PORT 5000 and graphql is on /graphql',
+  level: 'info',
+  timestamp: '2021-05-01T18:50:41.129Z' }
+{ message: 'dev server up listening on PORT 5000 and graphql is on /graphql',
+  level: 'info',
+  timestamp: '2021-05-01T18:51:36.774Z' }
+{ message: 'dev server up listening on PORT 5000 and graphql is on /graphql',
+  level: 'info',
+  timestamp: '2021-05-01T18:53:06.015Z' }
+{ message: 'dev server up listening on PORT 5000 and graphql is on /graphql',
+  level: 'info',
+  timestamp: '2021-05-01T18:54:00.720Z' }
+{ message: 'dev server up listening on PORT 5000 and graphql is on /graphql',
+  level: 'info',
+  timestamp: '2021-05-01T18:54:52.614Z' }
+{ message: 'dev server up listening on PORT 5000 and graphql is on /graphql',
+  level: 'info',
+  timestamp: '2021-05-01T18:55:07.417Z' }
+{ message: 'dev server up listening on PORT 5000 and graphql is on /graphql',
+  level: 'info',
+  timestamp: '2021-05-01T18:55:58.953Z' }
+{ message: 'dev server up listening on PORT 5000 and graphql is on /graphql',
+  level: 'info',
+  timestamp: '2021-05-01T18:56:55.275Z' }
+{ message: 'dev server up listening on PORT 5000 and graphql is on /graphql',
+  level: 'info',
+  timestamp: '2021-05-01T18:59:09.036Z' }
