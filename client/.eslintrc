@@ -1,7 +1,5 @@
 {
-    "plugins": [
-      "baseui"
-    ],
+    "plugins": [],
     "rules": {
       "baseui/deprecated-theme-api": "warn",
       "baseui/deprecated-component-api": "warn",
