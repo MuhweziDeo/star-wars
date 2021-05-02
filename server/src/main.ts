@@ -1,9 +1,9 @@
 import { app } from "./app";
-import { ApolloServer, gql } from 'apollo-server-express';
+import { ApolloServer, gql } from "apollo-server-express";
 import { Request, Response } from "express";
 import winstonLogger from "./startup/logger";
 
-import { getPeople } from './resolvers';
+import { getPeople } from "./resolvers";
 
 const typeDefs = gql`
     type People {
@@ -33,7 +33,7 @@ const resolvers = {
 
 const server = new ApolloServer({ typeDefs, resolvers, tracing: true });
 
-server.applyMiddleware({ app })
+server.applyMiddleware({ app });
 
 app.get("/", (req: Request, res: Response) => {
 	res.json({ "message": `To access the graphql server go to ${server.graphqlPath}` });

@@ -7,8 +7,9 @@
     "build": "tsc -p .",
     "start": "npm run build && node dist/main.js",
     "start:dev": "nodemon -x ts-node src/main.ts",
-    "lint": "eslint . --ext .ts,.tsx",
-    "test": "jest"
+    "lint": "eslint . --ext .ts",
+    "test": "jest",
+    "lint:fix": "npm run lint --fix"
   },
   "keywords": [],
   "author": "",
