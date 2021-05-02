@@ -1,25 +1,24 @@
 import React from 'react';
 import {Client as Styletron} from 'styletron-engine-atomic';
 import {Provider as StyletronProvider} from 'styletron-react';
-import {LightTheme, BaseProvider, styled} from 'baseui';
-import {Button} from 'baseui/button';
+import {LightTheme, BaseProvider} from 'baseui';
+import { ProgressBar } from "baseui/progress-bar";
+
+import Router from './router';
+import {useSelector} from "react-redux";
+import {RootState} from "./store";
+import AppNavBar from "./components/navigation";
 
 const engine = new Styletron();
-const Centered = styled('div', {
-  display: 'flex',
-  justifyContent: 'center',
-  alignItems: 'center',
-  height: '100%',
-});
-
 
 function App() {
+  const { loading } = useSelector((state:RootState) => state.loading);
   return (
     <StyletronProvider value={engine}>
       <BaseProvider theme={LightTheme}>
-        <Centered>
-        <Button onClick={() => alert("click")}>Hello</Button>
-        </Centered>
+          <AppNavBar/>
+        {loading &&  <ProgressBar infinite/>}
+        <Router/>
       </BaseProvider>
     </StyletronProvider>
   );
