@@ -4900,3 +4900,2109 @@
        method: '_load',
        native: false } ],
   timestamp: '2021-05-03T06:34:42.583Z' }
+{
+  error: GraphQLError [Object]: Syntax Error: Expected Name, found "!".
+      at syntaxError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/error/syntaxError.js:15:10)
+      at Parser.expectToken (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1413:40)
+      at Parser.parseName (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:98:22)
+      at Parser.parseNamedType (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:674:18)
+      at Parser.parseTypeReference (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:652:19)
+      at Parser.parseInputValueDef (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:913:21)
+      at Parser.optionalMany (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1503:28)
+      at Parser.parseArgumentDefs (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:900:17)
+      at Parser.parseFieldDefinition (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:880:21)
+      at Parser.optionalMany (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1503:28) {
+    locations: [ { line: 16, column: 35 } ]
+  },
+  level: 'error',
+  message: 'uncaughtException: Syntax Error: Expected Name, found "!".\n' +
+    'GraphQLError: Syntax Error: Expected Name, found "!".\n' +
+    '    at syntaxError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/error/syntaxError.js:15:10)\n' +
+    '    at Parser.expectToken (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1413:40)\n' +
+    '    at Parser.parseName (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:98:22)\n' +
+    '    at Parser.parseNamedType (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:674:18)\n' +
+    '    at Parser.parseTypeReference (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:652:19)\n' +
+    '    at Parser.parseInputValueDef (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:913:21)\n' +
+    '    at Parser.optionalMany (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1503:28)\n' +
+    '    at Parser.parseArgumentDefs (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:900:17)\n' +
+    '    at Parser.parseFieldDefinition (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:880:21)\n' +
+    '    at Parser.optionalMany (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1503:28)',
+  stack: 'GraphQLError: Syntax Error: Expected Name, found "!".\n' +
+    '    at syntaxError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/error/syntaxError.js:15:10)\n' +
+    '    at Parser.expectToken (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1413:40)\n' +
+    '    at Parser.parseName (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:98:22)\n' +
+    '    at Parser.parseNamedType (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:674:18)\n' +
+    '    at Parser.parseTypeReference (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:652:19)\n' +
+    '    at Parser.parseInputValueDef (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:913:21)\n' +
+    '    at Parser.optionalMany (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1503:28)\n' +
+    '    at Parser.parseArgumentDefs (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:900:17)\n' +
+    '    at Parser.parseFieldDefinition (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:880:21)\n' +
+    '    at Parser.optionalMany (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1503:28)',
+  exception: true,
+  date: 'Mon May 03 2021 20:46:32 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 49169,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/muhweziaggrey/Desktop/projects/star-wars/server',
+    execPath: '/Users/muhweziaggrey/.nvm/versions/node/v12.18.4/bin/node',
+    version: 'v12.18.4',
+    argv: [
+      '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/.bin/ts-node',
+      '/Users/muhweziaggrey/Desktop/projects/star-wars/server/src/main.ts'
+    ],
+    memoryUsage: {
+      rss: 201625600,
+      heapTotal: 158298112,
+      heapUsed: 135192424,
+      external: 2968121,
+      arrayBuffers: 1067356
+    }
+  },
+  os: {
+    loadavg: [ 10.5771484375, 6.85791015625, 7.55322265625 ],
+    uptime: 42054
+  },
+  trace: [
+    {
+      column: 10,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/error/syntaxError.js',
+      function: 'syntaxError',
+      line: 15,
+      method: null,
+      native: false
+    },
+    {
+      column: 40,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js',
+      function: 'Parser.expectToken',
+      line: 1413,
+      method: 'expectToken',
+      native: false
+    },
+    {
+      column: 22,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js',
+      function: 'Parser.parseName',
+      line: 98,
+      method: 'parseName',
+      native: false
+    },
+    {
+      column: 18,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js',
+      function: 'Parser.parseNamedType',
+      line: 674,
+      method: 'parseNamedType',
+      native: false
+    },
+    {
+      column: 19,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js',
+      function: 'Parser.parseTypeReference',
+      line: 652,
+      method: 'parseTypeReference',
+      native: false
+    },
+    {
+      column: 21,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js',
+      function: 'Parser.parseInputValueDef',
+      line: 913,
+      method: 'parseInputValueDef',
+      native: false
+    },
+    {
+      column: 28,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js',
+      function: 'Parser.optionalMany',
+      line: 1503,
+      method: 'optionalMany',
+      native: false
+    },
+    {
+      column: 17,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js',
+      function: 'Parser.parseArgumentDefs',
+      line: 900,
+      method: 'parseArgumentDefs',
+      native: false
+    },
+    {
+      column: 21,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js',
+      function: 'Parser.parseFieldDefinition',
+      line: 880,
+      method: 'parseFieldDefinition',
+      native: false
+    },
+    {
+      column: 28,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js',
+      function: 'Parser.optionalMany',
+      line: 1503,
+      method: 'optionalMany',
+      native: false
+    }
+  ],
+  timestamp: '2021-05-03T17:46:32.527Z'
+}
+{
+  error: GraphQLError [Object]: Syntax Error: Expected Name, found "!".
+      at syntaxError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/error/syntaxError.js:15:10)
+      at Parser.expectToken (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1413:40)
+      at Parser.parseName (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:98:22)
+      at Parser.parseNamedType (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:674:18)
+      at Parser.parseTypeReference (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:652:19)
+      at Parser.parseInputValueDef (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:913:21)
+      at Parser.optionalMany (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1503:28)
+      at Parser.parseArgumentDefs (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:900:17)
+      at Parser.parseFieldDefinition (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:880:21)
+      at Parser.optionalMany (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1503:28) {
+    locations: [ { line: 16, column: 35 } ]
+  },
+  level: 'error',
+  message: 'uncaughtException: Syntax Error: Expected Name, found "!".\n' +
+    'GraphQLError: Syntax Error: Expected Name, found "!".\n' +
+    '    at syntaxError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/error/syntaxError.js:15:10)\n' +
+    '    at Parser.expectToken (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1413:40)\n' +
+    '    at Parser.parseName (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:98:22)\n' +
+    '    at Parser.parseNamedType (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:674:18)\n' +
+    '    at Parser.parseTypeReference (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:652:19)\n' +
+    '    at Parser.parseInputValueDef (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:913:21)\n' +
+    '    at Parser.optionalMany (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1503:28)\n' +
+    '    at Parser.parseArgumentDefs (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:900:17)\n' +
+    '    at Parser.parseFieldDefinition (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:880:21)\n' +
+    '    at Parser.optionalMany (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1503:28)',
+  stack: 'GraphQLError: Syntax Error: Expected Name, found "!".\n' +
+    '    at syntaxError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/error/syntaxError.js:15:10)\n' +
+    '    at Parser.expectToken (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1413:40)\n' +
+    '    at Parser.parseName (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:98:22)\n' +
+    '    at Parser.parseNamedType (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:674:18)\n' +
+    '    at Parser.parseTypeReference (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:652:19)\n' +
+    '    at Parser.parseInputValueDef (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:913:21)\n' +
+    '    at Parser.optionalMany (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1503:28)\n' +
+    '    at Parser.parseArgumentDefs (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:900:17)\n' +
+    '    at Parser.parseFieldDefinition (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:880:21)\n' +
+    '    at Parser.optionalMany (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1503:28)',
+  exception: true,
+  date: 'Mon May 03 2021 20:46:58 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 49473,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/muhweziaggrey/Desktop/projects/star-wars/server',
+    execPath: '/Users/muhweziaggrey/.nvm/versions/node/v12.18.4/bin/node',
+    version: 'v12.18.4',
+    argv: [
+      '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/.bin/ts-node',
+      '/Users/muhweziaggrey/Desktop/projects/star-wars/server/src/main.ts'
+    ],
+    memoryUsage: {
+      rss: 200744960,
+      heapTotal: 158298112,
+      heapUsed: 135166544,
+      external: 2959264,
+      arrayBuffers: 1058499
+    }
+  },
+  os: {
+    loadavg: [ 8.27294921875, 6.62451171875, 7.44873046875 ],
+    uptime: 42080
+  },
+  trace: [
+    {
+      column: 10,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/error/syntaxError.js',
+      function: 'syntaxError',
+      line: 15,
+      method: null,
+      native: false
+    },
+    {
+      column: 40,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js',
+      function: 'Parser.expectToken',
+      line: 1413,
+      method: 'expectToken',
+      native: false
+    },
+    {
+      column: 22,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js',
+      function: 'Parser.parseName',
+      line: 98,
+      method: 'parseName',
+      native: false
+    },
+    {
+      column: 18,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js',
+      function: 'Parser.parseNamedType',
+      line: 674,
+      method: 'parseNamedType',
+      native: false
+    },
+    {
+      column: 19,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js',
+      function: 'Parser.parseTypeReference',
+      line: 652,
+      method: 'parseTypeReference',
+      native: false
+    },
+    {
+      column: 21,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js',
+      function: 'Parser.parseInputValueDef',
+      line: 913,
+      method: 'parseInputValueDef',
+      native: false
+    },
+    {
+      column: 28,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js',
+      function: 'Parser.optionalMany',
+      line: 1503,
+      method: 'optionalMany',
+      native: false
+    },
+    {
+      column: 17,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js',
+      function: 'Parser.parseArgumentDefs',
+      line: 900,
+      method: 'parseArgumentDefs',
+      native: false
+    },
+    {
+      column: 21,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js',
+      function: 'Parser.parseFieldDefinition',
+      line: 880,
+      method: 'parseFieldDefinition',
+      native: false
+    },
+    {
+      column: 28,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js',
+      function: 'Parser.optionalMany',
+      line: 1503,
+      method: 'optionalMany',
+      native: false
+    }
+  ],
+  timestamp: '2021-05-03T17:46:58.233Z'
+}
+{
+  error: [96msrc/resolvers/people.resolver.ts[0m:[93m5[0m:[93m10[0m - [91merror[0m[90m TS1123: [0mVariable declaration list cannot be empty.
+  
+  [7m5[0m     const
+  [7m [0m [91m         [0m
+  ,
+  level: 'error',
+  message: 'uncaughtException: ⨯ Unable to compile TypeScript:\n' +
+    '\u001b[96msrc/resolvers/people.resolver.ts\u001b[0m:\u001b[93m5\u001b[0m:\u001b[93m10\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1123: \u001b[0mVariable declaration list cannot be empty.\n' +
+    '\n' +
+    '\u001b[7m5\u001b[0m     const\n' +
+    '\u001b[7m \u001b[0m \u001b[91m         \u001b[0m\n' +
+    '\n' +
+    'TSError: ⨯ Unable to compile TypeScript:\n' +
+    '\u001b[96msrc/resolvers/people.resolver.ts\u001b[0m:\u001b[93m5\u001b[0m:\u001b[93m10\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1123: \u001b[0mVariable declaration list cannot be empty.\n' +
+    '\n' +
+    '\u001b[7m5\u001b[0m     const\n' +
+    '\u001b[7m \u001b[0m \u001b[91m         \u001b[0m\n' +
+    '\n' +
+    '    at createTSError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:434:12)\n' +
+    '    at reportTSError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:438:19)\n' +
+    '    at getOutput (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:578:36)\n' +
+    '    at Object.compile (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:775:32)\n' +
+    '    at Module.m._compile (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:858:43)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:861:12)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:985:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1025:19)',
+  stack: 'TSError: ⨯ Unable to compile TypeScript:\n' +
+    '\u001b[96msrc/resolvers/people.resolver.ts\u001b[0m:\u001b[93m5\u001b[0m:\u001b[93m10\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1123: \u001b[0mVariable declaration list cannot be empty.\n' +
+    '\n' +
+    '\u001b[7m5\u001b[0m     const\n' +
+    '\u001b[7m \u001b[0m \u001b[91m         \u001b[0m\n' +
+    '\n' +
+    '    at createTSError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:434:12)\n' +
+    '    at reportTSError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:438:19)\n' +
+    '    at getOutput (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:578:36)\n' +
+    '    at Object.compile (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:775:32)\n' +
+    '    at Module.m._compile (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:858:43)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:861:12)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:985:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1025:19)',
+  exception: true,
+  date: 'Mon May 03 2021 20:47:05 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 49569,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/muhweziaggrey/Desktop/projects/star-wars/server',
+    execPath: '/Users/muhweziaggrey/.nvm/versions/node/v12.18.4/bin/node',
+    version: 'v12.18.4',
+    argv: [
+      '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/.bin/ts-node',
+      '/Users/muhweziaggrey/Desktop/projects/star-wars/server/src/main.ts'
+    ],
+    memoryUsage: {
+      rss: 202387456,
+      heapTotal: 158298112,
+      heapUsed: 134512120,
+      external: 2884577,
+      arrayBuffers: 1027112
+    }
+  },
+  os: {
+    loadavg: [ 7.794921875, 6.5712890625, 7.419921875 ],
+    uptime: 42087
+  },
+  trace: [
+    {
+      column: 12,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts',
+      function: 'createTSError',
+      line: 434,
+      method: null,
+      native: false
+    },
+    {
+      column: 19,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts',
+      function: 'reportTSError',
+      line: 438,
+      method: null,
+      native: false
+    },
+    {
+      column: 36,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts',
+      function: 'getOutput',
+      line: 578,
+      method: null,
+      native: false
+    },
+    {
+      column: 32,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts',
+      function: 'Object.compile',
+      line: 775,
+      method: 'compile',
+      native: false
+    },
+    {
+      column: 43,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts',
+      function: 'Module.m._compile',
+      line: 858,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1157,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 12,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts',
+      function: 'Object.require.extensions.<computed> [as .ts]',
+      line: 861,
+      method: 'ts]',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 985,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 878,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1025,
+      method: 'require',
+      native: false
+    }
+  ],
+  timestamp: '2021-05-03T17:47:05.344Z'
+}
+{
+  error: [96msrc/resolvers/people.resolver.ts[0m:[93m6[0m:[93m5[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+  
+  [7m6[0m     const {data} = await axios.get(`people?page=${args.page || 1}`);
+  [7m [0m [91m    ~~~~~[0m
+  ,
+  level: 'error',
+  message: 'uncaughtException: ⨯ Unable to compile TypeScript:\n' +
+    '\u001b[96msrc/resolvers/people.resolver.ts\u001b[0m:\u001b[93m6\u001b[0m:\u001b[93m5\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1109: \u001b[0mExpression expected.\n' +
+    '\n' +
+    '\u001b[7m6\u001b[0m     const {data} = await axios.get(`people?page=${args.page || 1}`);\n' +
+    '\u001b[7m \u001b[0m \u001b[91m    ~~~~~\u001b[0m\n' +
+    '\n' +
+    'TSError: ⨯ Unable to compile TypeScript:\n' +
+    '\u001b[96msrc/resolvers/people.resolver.ts\u001b[0m:\u001b[93m6\u001b[0m:\u001b[93m5\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1109: \u001b[0mExpression expected.\n' +
+    '\n' +
+    '\u001b[7m6\u001b[0m     const {data} = await axios.get(`people?page=${args.page || 1}`);\n' +
+    '\u001b[7m \u001b[0m \u001b[91m    ~~~~~\u001b[0m\n' +
+    '\n' +
+    '    at createTSError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:434:12)\n' +
+    '    at reportTSError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:438:19)\n' +
+    '    at getOutput (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:578:36)\n' +
+    '    at Object.compile (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:775:32)\n' +
+    '    at Module.m._compile (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:858:43)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:861:12)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:985:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1025:19)',
+  stack: 'TSError: ⨯ Unable to compile TypeScript:\n' +
+    '\u001b[96msrc/resolvers/people.resolver.ts\u001b[0m:\u001b[93m6\u001b[0m:\u001b[93m5\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1109: \u001b[0mExpression expected.\n' +
+    '\n' +
+    '\u001b[7m6\u001b[0m     const {data} = await axios.get(`people?page=${args.page || 1}`);\n' +
+    '\u001b[7m \u001b[0m \u001b[91m    ~~~~~\u001b[0m\n' +
+    '\n' +
+    '    at createTSError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:434:12)\n' +
+    '    at reportTSError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:438:19)\n' +
+    '    at getOutput (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:578:36)\n' +
+    '    at Object.compile (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:775:32)\n' +
+    '    at Module.m._compile (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:858:43)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:861:12)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:985:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1025:19)',
+  exception: true,
+  date: 'Mon May 03 2021 20:47:09 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 49645,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/muhweziaggrey/Desktop/projects/star-wars/server',
+    execPath: '/Users/muhweziaggrey/.nvm/versions/node/v12.18.4/bin/node',
+    version: 'v12.18.4',
+    argv: [
+      '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/.bin/ts-node',
+      '/Users/muhweziaggrey/Desktop/projects/star-wars/server/src/main.ts'
+    ],
+    memoryUsage: {
+      rss: 203833344,
+      heapTotal: 158035968,
+      heapUsed: 134548560,
+      external: 2892769,
+      arrayBuffers: 1035304
+    }
+  },
+  os: {
+    loadavg: [ 7.33056640625, 6.4951171875, 7.3876953125 ],
+    uptime: 42091
+  },
+  trace: [
+    {
+      column: 12,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts',
+      function: 'createTSError',
+      line: 434,
+      method: null,
+      native: false
+    },
+    {
+      column: 19,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts',
+      function: 'reportTSError',
+      line: 438,
+      method: null,
+      native: false
+    },
+    {
+      column: 36,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts',
+      function: 'getOutput',
+      line: 578,
+      method: null,
+      native: false
+    },
+    {
+      column: 32,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts',
+      function: 'Object.compile',
+      line: 775,
+      method: 'compile',
+      native: false
+    },
+    {
+      column: 43,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts',
+      function: 'Module.m._compile',
+      line: 858,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1157,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 12,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts',
+      function: 'Object.require.extensions.<computed> [as .ts]',
+      line: 861,
+      method: 'ts]',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 985,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 878,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1025,
+      method: 'require',
+      native: false
+    }
+  ],
+  timestamp: '2021-05-03T17:47:09.136Z'
+}
+{
+  error: [96msrc/resolvers/people.resolver.ts[0m:[93m5[0m:[93m17[0m - [91merror[0m[90m TS2304: [0mCannot find name 'searchText'.
+  
+  [7m5[0m     const url = searchText ? `people?`
+  [7m [0m [91m                ~~~~~~~~~~[0m
+  [96msrc/resolvers/people.resolver.ts[0m:[93m6[0m:[93m5[0m - [91merror[0m[90m TS1005: [0m':' expected.
+  
+  [7m6[0m     const {data} = await axios.get(`people?page=${args.page || 1}`);
+  [7m [0m [91m    ~~~~~[0m
+  ,
+  level: 'error',
+  message: 'uncaughtException: ⨯ Unable to compile TypeScript:\n' +
+    "\u001b[96msrc/resolvers/people.resolver.ts\u001b[0m:\u001b[93m5\u001b[0m:\u001b[93m17\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2304: \u001b[0mCannot find name 'searchText'.\n" +
+    '\n' +
+    '\u001b[7m5\u001b[0m     const url = searchText ? `people?`\n' +
+    '\u001b[7m \u001b[0m \u001b[91m                ~~~~~~~~~~\u001b[0m\n' +
+    "\u001b[96msrc/resolvers/people.resolver.ts\u001b[0m:\u001b[93m6\u001b[0m:\u001b[93m5\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1005: \u001b[0m':' expected.\n" +
+    '\n' +
+    '\u001b[7m6\u001b[0m     const {data} = await axios.get(`people?page=${args.page || 1}`);\n' +
+    '\u001b[7m \u001b[0m \u001b[91m    ~~~~~\u001b[0m\n' +
+    '\n' +
+    'TSError: ⨯ Unable to compile TypeScript:\n' +
+    "\u001b[96msrc/resolvers/people.resolver.ts\u001b[0m:\u001b[93m5\u001b[0m:\u001b[93m17\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2304: \u001b[0mCannot find name 'searchText'.\n" +
+    '\n' +
+    '\u001b[7m5\u001b[0m     const url = searchText ? `people?`\n' +
+    '\u001b[7m \u001b[0m \u001b[91m                ~~~~~~~~~~\u001b[0m\n' +
+    "\u001b[96msrc/resolvers/people.resolver.ts\u001b[0m:\u001b[93m6\u001b[0m:\u001b[93m5\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1005: \u001b[0m':' expected.\n" +
+    '\n' +
+    '\u001b[7m6\u001b[0m     const {data} = await axios.get(`people?page=${args.page || 1}`);\n' +
+    '\u001b[7m \u001b[0m \u001b[91m    ~~~~~\u001b[0m\n' +
+    '\n' +
+    '    at createTSError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:434:12)\n' +
+    '    at reportTSError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:438:19)\n' +
+    '    at getOutput (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:578:36)\n' +
+    '    at Object.compile (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:775:32)\n' +
+    '    at Module.m._compile (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:858:43)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:861:12)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:985:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1025:19)',
+  stack: 'TSError: ⨯ Unable to compile TypeScript:\n' +
+    "\u001b[96msrc/resolvers/people.resolver.ts\u001b[0m:\u001b[93m5\u001b[0m:\u001b[93m17\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2304: \u001b[0mCannot find name 'searchText'.\n" +
+    '\n' +
+    '\u001b[7m5\u001b[0m     const url = searchText ? `people?`\n' +
+    '\u001b[7m \u001b[0m \u001b[91m                ~~~~~~~~~~\u001b[0m\n' +
+    "\u001b[96msrc/resolvers/people.resolver.ts\u001b[0m:\u001b[93m6\u001b[0m:\u001b[93m5\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1005: \u001b[0m':' expected.\n" +
+    '\n' +
+    '\u001b[7m6\u001b[0m     const {data} = await axios.get(`people?page=${args.page || 1}`);\n' +
+    '\u001b[7m \u001b[0m \u001b[91m    ~~~~~\u001b[0m\n' +
+    '\n' +
+    '    at createTSError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:434:12)\n' +
+    '    at reportTSError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:438:19)\n' +
+    '    at getOutput (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:578:36)\n' +
+    '    at Object.compile (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:775:32)\n' +
+    '    at Module.m._compile (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:858:43)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:861:12)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:985:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1025:19)',
+  exception: true,
+  date: 'Mon May 03 2021 20:47:26 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 49874,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/muhweziaggrey/Desktop/projects/star-wars/server',
+    execPath: '/Users/muhweziaggrey/.nvm/versions/node/v12.18.4/bin/node',
+    version: 'v12.18.4',
+    argv: [
+      '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/.bin/ts-node',
+      '/Users/muhweziaggrey/Desktop/projects/star-wars/server/src/main.ts'
+    ],
+    memoryUsage: {
+      rss: 200482816,
+      heapTotal: 158560256,
+      heapUsed: 135557960,
+      external: 2909818,
+      arrayBuffers: 1052353
+    }
+  },
+  os: {
+    loadavg: [ 8.888671875, 6.87890625, 7.50830078125 ],
+    uptime: 42108
+  },
+  trace: [
+    {
+      column: 12,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts',
+      function: 'createTSError',
+      line: 434,
+      method: null,
+      native: false
+    },
+    {
+      column: 19,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts',
+      function: 'reportTSError',
+      line: 438,
+      method: null,
+      native: false
+    },
+    {
+      column: 36,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts',
+      function: 'getOutput',
+      line: 578,
+      method: null,
+      native: false
+    },
+    {
+      column: 32,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts',
+      function: 'Object.compile',
+      line: 775,
+      method: 'compile',
+      native: false
+    },
+    {
+      column: 43,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts',
+      function: 'Module.m._compile',
+      line: 858,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1157,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 12,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts',
+      function: 'Object.require.extensions.<computed> [as .ts]',
+      line: 861,
+      method: 'ts]',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 985,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 878,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1025,
+      method: 'require',
+      native: false
+    }
+  ],
+  timestamp: '2021-05-03T17:47:26.777Z'
+}
+{
+  error: [96msrc/resolvers/people.resolver.ts[0m:[93m5[0m:[93m17[0m - [91merror[0m[90m TS2304: [0mCannot find name 'searchText'.
+  
+  [7m5[0m     const url = searchText ? `people?search=`
+  [7m [0m [91m                ~~~~~~~~~~[0m
+  [96msrc/resolvers/people.resolver.ts[0m:[93m6[0m:[93m5[0m - [91merror[0m[90m TS1005: [0m':' expected.
+  
+  [7m6[0m     const {data} = await axios.get(`people?page=${args.page || 1}`);
+  [7m [0m [91m    ~~~~~[0m
+  ,
+  level: 'error',
+  message: 'uncaughtException: ⨯ Unable to compile TypeScript:\n' +
+    "\u001b[96msrc/resolvers/people.resolver.ts\u001b[0m:\u001b[93m5\u001b[0m:\u001b[93m17\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2304: \u001b[0mCannot find name 'searchText'.\n" +
+    '\n' +
+    '\u001b[7m5\u001b[0m     const url = searchText ? `people?search=`\n' +
+    '\u001b[7m \u001b[0m \u001b[91m                ~~~~~~~~~~\u001b[0m\n' +
+    "\u001b[96msrc/resolvers/people.resolver.ts\u001b[0m:\u001b[93m6\u001b[0m:\u001b[93m5\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1005: \u001b[0m':' expected.\n" +
+    '\n' +
+    '\u001b[7m6\u001b[0m     const {data} = await axios.get(`people?page=${args.page || 1}`);\n' +
+    '\u001b[7m \u001b[0m \u001b[91m    ~~~~~\u001b[0m\n' +
+    '\n' +
+    'TSError: ⨯ Unable to compile TypeScript:\n' +
+    "\u001b[96msrc/resolvers/people.resolver.ts\u001b[0m:\u001b[93m5\u001b[0m:\u001b[93m17\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2304: \u001b[0mCannot find name 'searchText'.\n" +
+    '\n' +
+    '\u001b[7m5\u001b[0m     const url = searchText ? `people?search=`\n' +
+    '\u001b[7m \u001b[0m \u001b[91m                ~~~~~~~~~~\u001b[0m\n' +
+    "\u001b[96msrc/resolvers/people.resolver.ts\u001b[0m:\u001b[93m6\u001b[0m:\u001b[93m5\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1005: \u001b[0m':' expected.\n" +
+    '\n' +
+    '\u001b[7m6\u001b[0m     const {data} = await axios.get(`people?page=${args.page || 1}`);\n' +
+    '\u001b[7m \u001b[0m \u001b[91m    ~~~~~\u001b[0m\n' +
+    '\n' +
+    '    at createTSError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:434:12)\n' +
+    '    at reportTSError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:438:19)\n' +
+    '    at getOutput (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:578:36)\n' +
+    '    at Object.compile (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:775:32)\n' +
+    '    at Module.m._compile (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:858:43)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:861:12)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:985:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1025:19)',
+  stack: 'TSError: ⨯ Unable to compile TypeScript:\n' +
+    "\u001b[96msrc/resolvers/people.resolver.ts\u001b[0m:\u001b[93m5\u001b[0m:\u001b[93m17\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2304: \u001b[0mCannot find name 'searchText'.\n" +
+    '\n' +
+    '\u001b[7m5\u001b[0m     const url = searchText ? `people?search=`\n' +
+    '\u001b[7m \u001b[0m \u001b[91m                ~~~~~~~~~~\u001b[0m\n' +
+    "\u001b[96msrc/resolvers/people.resolver.ts\u001b[0m:\u001b[93m6\u001b[0m:\u001b[93m5\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1005: \u001b[0m':' expected.\n" +
+    '\n' +
+    '\u001b[7m6\u001b[0m     const {data} = await axios.get(`people?page=${args.page || 1}`);\n' +
+    '\u001b[7m \u001b[0m \u001b[91m    ~~~~~\u001b[0m\n' +
+    '\n' +
+    '    at createTSError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:434:12)\n' +
+    '    at reportTSError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:438:19)\n' +
+    '    at getOutput (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:578:36)\n' +
+    '    at Object.compile (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:775:32)\n' +
+    '    at Module.m._compile (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:858:43)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:861:12)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:985:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1025:19)',
+  exception: true,
+  date: 'Mon May 03 2021 20:47:37 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 50025,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/muhweziaggrey/Desktop/projects/star-wars/server',
+    execPath: '/Users/muhweziaggrey/.nvm/versions/node/v12.18.4/bin/node',
+    version: 'v12.18.4',
+    argv: [
+      '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/.bin/ts-node',
+      '/Users/muhweziaggrey/Desktop/projects/star-wars/server/src/main.ts'
+    ],
+    memoryUsage: {
+      rss: 199143424,
+      heapTotal: 158560256,
+      heapUsed: 135491992,
+      external: 2909818,
+      arrayBuffers: 1052353
+    }
+  },
+  os: {
+    loadavg: [ 7.9892578125, 6.7509765625, 7.455078125 ],
+    uptime: 42119
+  },
+  trace: [
+    {
+      column: 12,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts',
+      function: 'createTSError',
+      line: 434,
+      method: null,
+      native: false
+    },
+    {
+      column: 19,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts',
+      function: 'reportTSError',
+      line: 438,
+      method: null,
+      native: false
+    },
+    {
+      column: 36,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts',
+      function: 'getOutput',
+      line: 578,
+      method: null,
+      native: false
+    },
+    {
+      column: 32,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts',
+      function: 'Object.compile',
+      line: 775,
+      method: 'compile',
+      native: false
+    },
+    {
+      column: 43,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts',
+      function: 'Module.m._compile',
+      line: 858,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1157,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 12,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts',
+      function: 'Object.require.extensions.<computed> [as .ts]',
+      line: 861,
+      method: 'ts]',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 985,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 878,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1025,
+      method: 'require',
+      native: false
+    }
+  ],
+  timestamp: '2021-05-03T17:47:37.460Z'
+}
+{
+  error: [96msrc/resolvers/people.resolver.ts[0m:[93m5[0m:[93m17[0m - [91merror[0m[90m TS2304: [0mCannot find name 'searchText'.
+  
+  [7m5[0m     const url = searchText ? `people?search=${searchText}` :
+  [7m [0m [91m                ~~~~~~~~~~[0m
+  [96msrc/resolvers/people.resolver.ts[0m:[93m5[0m:[93m47[0m - [91merror[0m[90m TS2304: [0mCannot find name 'searchText'.
+  
+  [7m5[0m     const url = searchText ? `people?search=${searchText}` :
+  [7m [0m [91m                                              ~~~~~~~~~~[0m
+  [96msrc/resolvers/people.resolver.ts[0m:[93m6[0m:[93m5[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+  
+  [7m6[0m     const {data} = await axios.get(`people?page=${args.page || 1}`);
+  [7m [0m [91m    ~~~~~[0m
+  ,
+  level: 'error',
+  message: 'uncaughtException: ⨯ Unable to compile TypeScript:\n' +
+    "\u001b[96msrc/resolvers/people.resolver.ts\u001b[0m:\u001b[93m5\u001b[0m:\u001b[93m17\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2304: \u001b[0mCannot find name 'searchText'.\n" +
+    '\n' +
+    '\u001b[7m5\u001b[0m     const url = searchText ? `people?search=${searchText}` :\n' +
+    '\u001b[7m \u001b[0m \u001b[91m                ~~~~~~~~~~\u001b[0m\n' +
+    "\u001b[96msrc/resolvers/people.resolver.ts\u001b[0m:\u001b[93m5\u001b[0m:\u001b[93m47\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2304: \u001b[0mCannot find name 'searchText'.\n" +
+    '\n' +
+    '\u001b[7m5\u001b[0m     const url = searchText ? `people?search=${searchText}` :\n' +
+    '\u001b[7m \u001b[0m \u001b[91m                                              ~~~~~~~~~~\u001b[0m\n' +
+    '\u001b[96msrc/resolvers/people.resolver.ts\u001b[0m:\u001b[93m6\u001b[0m:\u001b[93m5\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1109: \u001b[0mExpression expected.\n' +
+    '\n' +
+    '\u001b[7m6\u001b[0m     const {data} = await axios.get(`people?page=${args.page || 1}`);\n' +
+    '\u001b[7m \u001b[0m \u001b[91m    ~~~~~\u001b[0m\n' +
+    '\n' +
+    'TSError: ⨯ Unable to compile TypeScript:\n' +
+    "\u001b[96msrc/resolvers/people.resolver.ts\u001b[0m:\u001b[93m5\u001b[0m:\u001b[93m17\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2304: \u001b[0mCannot find name 'searchText'.\n" +
+    '\n' +
+    '\u001b[7m5\u001b[0m     const url = searchText ? `people?search=${searchText}` :\n' +
+    '\u001b[7m \u001b[0m \u001b[91m                ~~~~~~~~~~\u001b[0m\n' +
+    "\u001b[96msrc/resolvers/people.resolver.ts\u001b[0m:\u001b[93m5\u001b[0m:\u001b[93m47\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2304: \u001b[0mCannot find name 'searchText'.\n" +
+    '\n' +
+    '\u001b[7m5\u001b[0m     const url = searchText ? `people?search=${searchText}` :\n' +
+    '\u001b[7m \u001b[0m \u001b[91m                                              ~~~~~~~~~~\u001b[0m\n' +
+    '\u001b[96msrc/resolvers/people.resolver.ts\u001b[0m:\u001b[93m6\u001b[0m:\u001b[93m5\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1109: \u001b[0mExpression expected.\n' +
+    '\n' +
+    '\u001b[7m6\u001b[0m     const {data} = await axios.get(`people?page=${args.page || 1}`);\n' +
+    '\u001b[7m \u001b[0m \u001b[91m    ~~~~~\u001b[0m\n' +
+    '\n' +
+    '    at createTSError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:434:12)\n' +
+    '    at reportTSError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:438:19)\n' +
+    '    at getOutput (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:578:36)\n' +
+    '    at Object.compile (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:775:32)\n' +
+    '    at Module.m._compile (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:858:43)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:861:12)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:985:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1025:19)',
+  stack: 'TSError: ⨯ Unable to compile TypeScript:\n' +
+    "\u001b[96msrc/resolvers/people.resolver.ts\u001b[0m:\u001b[93m5\u001b[0m:\u001b[93m17\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2304: \u001b[0mCannot find name 'searchText'.\n" +
+    '\n' +
+    '\u001b[7m5\u001b[0m     const url = searchText ? `people?search=${searchText}` :\n' +
+    '\u001b[7m \u001b[0m \u001b[91m                ~~~~~~~~~~\u001b[0m\n' +
+    "\u001b[96msrc/resolvers/people.resolver.ts\u001b[0m:\u001b[93m5\u001b[0m:\u001b[93m47\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2304: \u001b[0mCannot find name 'searchText'.\n" +
+    '\n' +
+    '\u001b[7m5\u001b[0m     const url = searchText ? `people?search=${searchText}` :\n' +
+    '\u001b[7m \u001b[0m \u001b[91m                                              ~~~~~~~~~~\u001b[0m\n' +
+    '\u001b[96msrc/resolvers/people.resolver.ts\u001b[0m:\u001b[93m6\u001b[0m:\u001b[93m5\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS1109: \u001b[0mExpression expected.\n' +
+    '\n' +
+    '\u001b[7m6\u001b[0m     const {data} = await axios.get(`people?page=${args.page || 1}`);\n' +
+    '\u001b[7m \u001b[0m \u001b[91m    ~~~~~\u001b[0m\n' +
+    '\n' +
+    '    at createTSError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:434:12)\n' +
+    '    at reportTSError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:438:19)\n' +
+    '    at getOutput (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:578:36)\n' +
+    '    at Object.compile (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:775:32)\n' +
+    '    at Module.m._compile (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:858:43)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:861:12)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:985:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1025:19)',
+  exception: true,
+  date: 'Mon May 03 2021 20:47:46 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 50175,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/muhweziaggrey/Desktop/projects/star-wars/server',
+    execPath: '/Users/muhweziaggrey/.nvm/versions/node/v12.18.4/bin/node',
+    version: 'v12.18.4',
+    argv: [
+      '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/.bin/ts-node',
+      '/Users/muhweziaggrey/Desktop/projects/star-wars/server/src/main.ts'
+    ],
+    memoryUsage: {
+      rss: 198021120,
+      heapTotal: 158560256,
+      heapUsed: 135792976,
+      external: 2918010,
+      arrayBuffers: 1060545
+    }
+  },
+  os: {
+    loadavg: [ 8.115234375, 6.81005859375, 7.466796875 ],
+    uptime: 42128
+  },
+  trace: [
+    {
+      column: 12,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts',
+      function: 'createTSError',
+      line: 434,
+      method: null,
+      native: false
+    },
+    {
+      column: 19,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts',
+      function: 'reportTSError',
+      line: 438,
+      method: null,
+      native: false
+    },
+    {
+      column: 36,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts',
+      function: 'getOutput',
+      line: 578,
+      method: null,
+      native: false
+    },
+    {
+      column: 32,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts',
+      function: 'Object.compile',
+      line: 775,
+      method: 'compile',
+      native: false
+    },
+    {
+      column: 43,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts',
+      function: 'Module.m._compile',
+      line: 858,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1157,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 12,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts',
+      function: 'Object.require.extensions.<computed> [as .ts]',
+      line: 861,
+      method: 'ts]',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 985,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 878,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1025,
+      method: 'require',
+      native: false
+    }
+  ],
+  timestamp: '2021-05-03T17:47:46.682Z'
+}
+{
+  error: [96msrc/resolvers/people.resolver.ts[0m:[93m5[0m:[93m17[0m - [91merror[0m[90m TS2304: [0mCannot find name 'searchText'.
+  
+  [7m5[0m     const url = searchText ? `people?search=${searchText}` : `people?page=${args.page || 1}`;
+  [7m [0m [91m                ~~~~~~~~~~[0m
+  [96msrc/resolvers/people.resolver.ts[0m:[93m5[0m:[93m47[0m - [91merror[0m[90m TS2304: [0mCannot find name 'searchText'.
+  
+  [7m5[0m     const url = searchText ? `people?search=${searchText}` : `people?page=${args.page || 1}`;
+  [7m [0m [91m                                              ~~~~~~~~~~[0m
+  ,
+  level: 'error',
+  message: 'uncaughtException: ⨯ Unable to compile TypeScript:\n' +
+    "\u001b[96msrc/resolvers/people.resolver.ts\u001b[0m:\u001b[93m5\u001b[0m:\u001b[93m17\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2304: \u001b[0mCannot find name 'searchText'.\n" +
+    '\n' +
+    '\u001b[7m5\u001b[0m     const url = searchText ? `people?search=${searchText}` : `people?page=${args.page || 1}`;\n' +
+    '\u001b[7m \u001b[0m \u001b[91m                ~~~~~~~~~~\u001b[0m\n' +
+    "\u001b[96msrc/resolvers/people.resolver.ts\u001b[0m:\u001b[93m5\u001b[0m:\u001b[93m47\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2304: \u001b[0mCannot find name 'searchText'.\n" +
+    '\n' +
+    '\u001b[7m5\u001b[0m     const url = searchText ? `people?search=${searchText}` : `people?page=${args.page || 1}`;\n' +
+    '\u001b[7m \u001b[0m \u001b[91m                                              ~~~~~~~~~~\u001b[0m\n' +
+    '\n' +
+    'TSError: ⨯ Unable to compile TypeScript:\n' +
+    "\u001b[96msrc/resolvers/people.resolver.ts\u001b[0m:\u001b[93m5\u001b[0m:\u001b[93m17\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2304: \u001b[0mCannot find name 'searchText'.\n" +
+    '\n' +
+    '\u001b[7m5\u001b[0m     const url = searchText ? `people?search=${searchText}` : `people?page=${args.page || 1}`;\n' +
+    '\u001b[7m \u001b[0m \u001b[91m                ~~~~~~~~~~\u001b[0m\n' +
+    "\u001b[96msrc/resolvers/people.resolver.ts\u001b[0m:\u001b[93m5\u001b[0m:\u001b[93m47\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2304: \u001b[0mCannot find name 'searchText'.\n" +
+    '\n' +
+    '\u001b[7m5\u001b[0m     const url = searchText ? `people?search=${searchText}` : `people?page=${args.page || 1}`;\n' +
+    '\u001b[7m \u001b[0m \u001b[91m                                              ~~~~~~~~~~\u001b[0m\n' +
+    '\n' +
+    '    at createTSError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:434:12)\n' +
+    '    at reportTSError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:438:19)\n' +
+    '    at getOutput (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:578:36)\n' +
+    '    at Object.compile (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:775:32)\n' +
+    '    at Module.m._compile (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:858:43)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:861:12)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:985:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1025:19)',
+  stack: 'TSError: ⨯ Unable to compile TypeScript:\n' +
+    "\u001b[96msrc/resolvers/people.resolver.ts\u001b[0m:\u001b[93m5\u001b[0m:\u001b[93m17\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2304: \u001b[0mCannot find name 'searchText'.\n" +
+    '\n' +
+    '\u001b[7m5\u001b[0m     const url = searchText ? `people?search=${searchText}` : `people?page=${args.page || 1}`;\n' +
+    '\u001b[7m \u001b[0m \u001b[91m                ~~~~~~~~~~\u001b[0m\n' +
+    "\u001b[96msrc/resolvers/people.resolver.ts\u001b[0m:\u001b[93m5\u001b[0m:\u001b[93m47\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2304: \u001b[0mCannot find name 'searchText'.\n" +
+    '\n' +
+    '\u001b[7m5\u001b[0m     const url = searchText ? `people?search=${searchText}` : `people?page=${args.page || 1}`;\n' +
+    '\u001b[7m \u001b[0m \u001b[91m                                              ~~~~~~~~~~\u001b[0m\n' +
+    '\n' +
+    '    at createTSError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:434:12)\n' +
+    '    at reportTSError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:438:19)\n' +
+    '    at getOutput (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:578:36)\n' +
+    '    at Object.compile (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:775:32)\n' +
+    '    at Module.m._compile (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:858:43)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:861:12)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:985:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1025:19)',
+  exception: true,
+  date: 'Mon May 03 2021 20:47:59 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 50343,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/muhweziaggrey/Desktop/projects/star-wars/server',
+    execPath: '/Users/muhweziaggrey/.nvm/versions/node/v12.18.4/bin/node',
+    version: 'v12.18.4',
+    argv: [
+      '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/.bin/ts-node',
+      '/Users/muhweziaggrey/Desktop/projects/star-wars/server/src/main.ts'
+    ],
+    memoryUsage: {
+      rss: 198823936,
+      heapTotal: 158822400,
+      heapUsed: 135414072,
+      external: 2892769,
+      arrayBuffers: 1035304
+    }
+  },
+  os: {
+    loadavg: [ 9.91845703125, 7.23583984375, 7.6044921875 ],
+    uptime: 42141
+  },
+  trace: [
+    {
+      column: 12,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts',
+      function: 'createTSError',
+      line: 434,
+      method: null,
+      native: false
+    },
+    {
+      column: 19,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts',
+      function: 'reportTSError',
+      line: 438,
+      method: null,
+      native: false
+    },
+    {
+      column: 36,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts',
+      function: 'getOutput',
+      line: 578,
+      method: null,
+      native: false
+    },
+    {
+      column: 32,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts',
+      function: 'Object.compile',
+      line: 775,
+      method: 'compile',
+      native: false
+    },
+    {
+      column: 43,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts',
+      function: 'Module.m._compile',
+      line: 858,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1157,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 12,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts',
+      function: 'Object.require.extensions.<computed> [as .ts]',
+      line: 861,
+      method: 'ts]',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 985,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 878,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1025,
+      method: 'require',
+      native: false
+    }
+  ],
+  timestamp: '2021-05-03T17:47:59.813Z'
+}
+{
+  error: GraphQLError [Object]: Syntax Error: Expected Name, found "!".
+      at syntaxError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/error/syntaxError.js:15:10)
+      at Parser.expectToken (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1413:40)
+      at Parser.parseName (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:98:22)
+      at Parser.parseNamedType (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:674:18)
+      at Parser.parseTypeReference (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:652:19)
+      at Parser.parseInputValueDef (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:913:21)
+      at Parser.optionalMany (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1503:28)
+      at Parser.parseArgumentDefs (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:900:17)
+      at Parser.parseFieldDefinition (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:880:21)
+      at Parser.optionalMany (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1503:28) {
+    locations: [ { line: 16, column: 35 } ]
+  },
+  level: 'error',
+  message: 'uncaughtException: Syntax Error: Expected Name, found "!".\n' +
+    'GraphQLError: Syntax Error: Expected Name, found "!".\n' +
+    '    at syntaxError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/error/syntaxError.js:15:10)\n' +
+    '    at Parser.expectToken (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1413:40)\n' +
+    '    at Parser.parseName (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:98:22)\n' +
+    '    at Parser.parseNamedType (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:674:18)\n' +
+    '    at Parser.parseTypeReference (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:652:19)\n' +
+    '    at Parser.parseInputValueDef (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:913:21)\n' +
+    '    at Parser.optionalMany (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1503:28)\n' +
+    '    at Parser.parseArgumentDefs (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:900:17)\n' +
+    '    at Parser.parseFieldDefinition (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:880:21)\n' +
+    '    at Parser.optionalMany (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1503:28)',
+  stack: 'GraphQLError: Syntax Error: Expected Name, found "!".\n' +
+    '    at syntaxError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/error/syntaxError.js:15:10)\n' +
+    '    at Parser.expectToken (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1413:40)\n' +
+    '    at Parser.parseName (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:98:22)\n' +
+    '    at Parser.parseNamedType (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:674:18)\n' +
+    '    at Parser.parseTypeReference (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:652:19)\n' +
+    '    at Parser.parseInputValueDef (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:913:21)\n' +
+    '    at Parser.optionalMany (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1503:28)\n' +
+    '    at Parser.parseArgumentDefs (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:900:17)\n' +
+    '    at Parser.parseFieldDefinition (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:880:21)\n' +
+    '    at Parser.optionalMany (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1503:28)',
+  exception: true,
+  date: 'Mon May 03 2021 20:48:17 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 50578,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/muhweziaggrey/Desktop/projects/star-wars/server',
+    execPath: '/Users/muhweziaggrey/.nvm/versions/node/v12.18.4/bin/node',
+    version: 'v12.18.4',
+    argv: [
+      '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/.bin/ts-node',
+      '/Users/muhweziaggrey/Desktop/projects/star-wars/server/src/main.ts'
+    ],
+    memoryUsage: {
+      rss: 198303744,
+      heapTotal: 158298112,
+      heapUsed: 135748000,
+      external: 2994901,
+      arrayBuffers: 1094136
+    }
+  },
+  os: {
+    loadavg: [ 8.81005859375, 7.12451171875, 7.55810546875 ],
+    uptime: 42159
+  },
+  trace: [
+    {
+      column: 10,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/error/syntaxError.js',
+      function: 'syntaxError',
+      line: 15,
+      method: null,
+      native: false
+    },
+    {
+      column: 40,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js',
+      function: 'Parser.expectToken',
+      line: 1413,
+      method: 'expectToken',
+      native: false
+    },
+    {
+      column: 22,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js',
+      function: 'Parser.parseName',
+      line: 98,
+      method: 'parseName',
+      native: false
+    },
+    {
+      column: 18,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js',
+      function: 'Parser.parseNamedType',
+      line: 674,
+      method: 'parseNamedType',
+      native: false
+    },
+    {
+      column: 19,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js',
+      function: 'Parser.parseTypeReference',
+      line: 652,
+      method: 'parseTypeReference',
+      native: false
+    },
+    {
+      column: 21,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js',
+      function: 'Parser.parseInputValueDef',
+      line: 913,
+      method: 'parseInputValueDef',
+      native: false
+    },
+    {
+      column: 28,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js',
+      function: 'Parser.optionalMany',
+      line: 1503,
+      method: 'optionalMany',
+      native: false
+    },
+    {
+      column: 17,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js',
+      function: 'Parser.parseArgumentDefs',
+      line: 900,
+      method: 'parseArgumentDefs',
+      native: false
+    },
+    {
+      column: 21,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js',
+      function: 'Parser.parseFieldDefinition',
+      line: 880,
+      method: 'parseFieldDefinition',
+      native: false
+    },
+    {
+      column: 28,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js',
+      function: 'Parser.optionalMany',
+      line: 1503,
+      method: 'optionalMany',
+      native: false
+    }
+  ],
+  timestamp: '2021-05-03T17:48:17.152Z'
+}
+{
+  error: [96msrc/resolvers/people.resolver.ts[0m:[93m5[0m:[93m12[0m - [91merror[0m[90m TS2339: [0mProperty 'searchTex' does not exist on type '{ page?: number | undefined; searchText?: string | undefined; }'.
+  
+  [7m5[0m     const {searchTex = ''} = args;
+  [7m [0m [91m           ~~~~~~~~~[0m
+  [96msrc/resolvers/people.resolver.ts[0m:[93m6[0m:[93m17[0m - [91merror[0m[90m TS2552: [0mCannot find name 'searchText'. Did you mean 'searchTex'?
+  
+  [7m6[0m     const url = searchText ? `people?search=${searchText.toLowerCase()}` : `people?page=${args.page || 1}`;
+  [7m [0m [91m                ~~~~~~~~~~[0m
+  
+    [96msrc/resolvers/people.resolver.ts[0m:[93m5[0m:[93m12[0m
+      [7m5[0m     const {searchTex = ''} = args;
+      [7m [0m [96m           ~~~~~~~~~[0m
+      'searchTex' is declared here.
+  [96msrc/resolvers/people.resolver.ts[0m:[93m6[0m:[93m47[0m - [91merror[0m[90m TS2552: [0mCannot find name 'searchText'. Did you mean 'searchTex'?
+  
+  [7m6[0m     const url = searchText ? `people?search=${searchText.toLowerCase()}` : `people?page=${args.page || 1}`;
+  [7m [0m [91m                                              ~~~~~~~~~~[0m
+  
+    [96msrc/resolvers/people.resolver.ts[0m:[93m5[0m:[93m12[0m
+      [7m5[0m     const {searchTex = ''} = args;
+      [7m [0m [96m           ~~~~~~~~~[0m
+      'searchTex' is declared here.
+  ,
+  level: 'error',
+  message: 'uncaughtException: ⨯ Unable to compile TypeScript:\n' +
+    "\u001b[96msrc/resolvers/people.resolver.ts\u001b[0m:\u001b[93m5\u001b[0m:\u001b[93m12\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2339: \u001b[0mProperty 'searchTex' does not exist on type '{ page?: number | undefined; searchText?: string | undefined; }'.\n" +
+    '\n' +
+    "\u001b[7m5\u001b[0m     const {searchTex = ''} = args;\n" +
+    '\u001b[7m \u001b[0m \u001b[91m           ~~~~~~~~~\u001b[0m\n' +
+    "\u001b[96msrc/resolvers/people.resolver.ts\u001b[0m:\u001b[93m6\u001b[0m:\u001b[93m17\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2552: \u001b[0mCannot find name 'searchText'. Did you mean 'searchTex'?\n" +
+    '\n' +
+    '\u001b[7m6\u001b[0m     const url = searchText ? `people?search=${searchText.toLowerCase()}` : `people?page=${args.page || 1}`;\n' +
+    '\u001b[7m \u001b[0m \u001b[91m                ~~~~~~~~~~\u001b[0m\n' +
+    '\n' +
+    '  \u001b[96msrc/resolvers/people.resolver.ts\u001b[0m:\u001b[93m5\u001b[0m:\u001b[93m12\u001b[0m\n' +
+    "    \u001b[7m5\u001b[0m     const {searchTex = ''} = args;\n" +
+    '    \u001b[7m \u001b[0m \u001b[96m           ~~~~~~~~~\u001b[0m\n' +
+    "    'searchTex' is declared here.\n" +
+    "\u001b[96msrc/resolvers/people.resolver.ts\u001b[0m:\u001b[93m6\u001b[0m:\u001b[93m47\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2552: \u001b[0mCannot find name 'searchText'. Did you mean 'searchTex'?\n" +
+    '\n' +
+    '\u001b[7m6\u001b[0m     const url = searchText ? `people?search=${searchText.toLowerCase()}` : `people?page=${args.page || 1}`;\n' +
+    '\u001b[7m \u001b[0m \u001b[91m                                              ~~~~~~~~~~\u001b[0m\n' +
+    '\n' +
+    '  \u001b[96msrc/resolvers/people.resolver.ts\u001b[0m:\u001b[93m5\u001b[0m:\u001b[93m12\u001b[0m\n' +
+    "    \u001b[7m5\u001b[0m     const {searchTex = ''} = args;\n" +
+    '    \u001b[7m \u001b[0m \u001b[96m           ~~~~~~~~~\u001b[0m\n' +
+    "    'searchTex' is declared here.\n" +
+    '\n' +
+    'TSError: ⨯ Unable to compile TypeScript:\n' +
+    "\u001b[96msrc/resolvers/people.resolver.ts\u001b[0m:\u001b[93m5\u001b[0m:\u001b[93m12\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2339: \u001b[0mProperty 'searchTex' does not exist on type '{ page?: number | undefined; searchText?: string | undefined; }'.\n" +
+    '\n' +
+    "\u001b[7m5\u001b[0m     const {searchTex = ''} = args;\n" +
+    '\u001b[7m \u001b[0m \u001b[91m           ~~~~~~~~~\u001b[0m\n' +
+    "\u001b[96msrc/resolvers/people.resolver.ts\u001b[0m:\u001b[93m6\u001b[0m:\u001b[93m17\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2552: \u001b[0mCannot find name 'searchText'. Did you mean 'searchTex'?\n" +
+    '\n' +
+    '\u001b[7m6\u001b[0m     const url = searchText ? `people?search=${searchText.toLowerCase()}` : `people?page=${args.page || 1}`;\n' +
+    '\u001b[7m \u001b[0m \u001b[91m                ~~~~~~~~~~\u001b[0m\n' +
+    '\n' +
+    '  \u001b[96msrc/resolvers/people.resolver.ts\u001b[0m:\u001b[93m5\u001b[0m:\u001b[93m12\u001b[0m\n' +
+    "    \u001b[7m5\u001b[0m     const {searchTex = ''} = args;\n" +
+    '    \u001b[7m \u001b[0m \u001b[96m           ~~~~~~~~~\u001b[0m\n' +
+    "    'searchTex' is declared here.\n" +
+    "\u001b[96msrc/resolvers/people.resolver.ts\u001b[0m:\u001b[93m6\u001b[0m:\u001b[93m47\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2552: \u001b[0mCannot find name 'searchText'. Did you mean 'searchTex'?\n" +
+    '\n' +
+    '\u001b[7m6\u001b[0m     const url = searchText ? `people?search=${searchText.toLowerCase()}` : `people?page=${args.page || 1}`;\n' +
+    '\u001b[7m \u001b[0m \u001b[91m                                              ~~~~~~~~~~\u001b[0m\n' +
+    '\n' +
+    '  \u001b[96msrc/resolvers/people.resolver.ts\u001b[0m:\u001b[93m5\u001b[0m:\u001b[93m12\u001b[0m\n' +
+    "    \u001b[7m5\u001b[0m     const {searchTex = ''} = args;\n" +
+    '    \u001b[7m \u001b[0m \u001b[96m           ~~~~~~~~~\u001b[0m\n' +
+    "    'searchTex' is declared here.\n" +
+    '\n' +
+    '    at createTSError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:434:12)\n' +
+    '    at reportTSError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:438:19)\n' +
+    '    at getOutput (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:578:36)\n' +
+    '    at Object.compile (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:775:32)\n' +
+    '    at Module.m._compile (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:858:43)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:861:12)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:985:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1025:19)',
+  stack: 'TSError: ⨯ Unable to compile TypeScript:\n' +
+    "\u001b[96msrc/resolvers/people.resolver.ts\u001b[0m:\u001b[93m5\u001b[0m:\u001b[93m12\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2339: \u001b[0mProperty 'searchTex' does not exist on type '{ page?: number | undefined; searchText?: string | undefined; }'.\n" +
+    '\n' +
+    "\u001b[7m5\u001b[0m     const {searchTex = ''} = args;\n" +
+    '\u001b[7m \u001b[0m \u001b[91m           ~~~~~~~~~\u001b[0m\n' +
+    "\u001b[96msrc/resolvers/people.resolver.ts\u001b[0m:\u001b[93m6\u001b[0m:\u001b[93m17\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2552: \u001b[0mCannot find name 'searchText'. Did you mean 'searchTex'?\n" +
+    '\n' +
+    '\u001b[7m6\u001b[0m     const url = searchText ? `people?search=${searchText.toLowerCase()}` : `people?page=${args.page || 1}`;\n' +
+    '\u001b[7m \u001b[0m \u001b[91m                ~~~~~~~~~~\u001b[0m\n' +
+    '\n' +
+    '  \u001b[96msrc/resolvers/people.resolver.ts\u001b[0m:\u001b[93m5\u001b[0m:\u001b[93m12\u001b[0m\n' +
+    "    \u001b[7m5\u001b[0m     const {searchTex = ''} = args;\n" +
+    '    \u001b[7m \u001b[0m \u001b[96m           ~~~~~~~~~\u001b[0m\n' +
+    "    'searchTex' is declared here.\n" +
+    "\u001b[96msrc/resolvers/people.resolver.ts\u001b[0m:\u001b[93m6\u001b[0m:\u001b[93m47\u001b[0m - \u001b[91merror\u001b[0m\u001b[90m TS2552: \u001b[0mCannot find name 'searchText'. Did you mean 'searchTex'?\n" +
+    '\n' +
+    '\u001b[7m6\u001b[0m     const url = searchText ? `people?search=${searchText.toLowerCase()}` : `people?page=${args.page || 1}`;\n' +
+    '\u001b[7m \u001b[0m \u001b[91m                                              ~~~~~~~~~~\u001b[0m\n' +
+    '\n' +
+    '  \u001b[96msrc/resolvers/people.resolver.ts\u001b[0m:\u001b[93m5\u001b[0m:\u001b[93m12\u001b[0m\n' +
+    "    \u001b[7m5\u001b[0m     const {searchTex = ''} = args;\n" +
+    '    \u001b[7m \u001b[0m \u001b[96m           ~~~~~~~~~\u001b[0m\n' +
+    "    'searchTex' is declared here.\n" +
+    '\n' +
+    '    at createTSError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:434:12)\n' +
+    '    at reportTSError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:438:19)\n' +
+    '    at getOutput (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:578:36)\n' +
+    '    at Object.compile (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:775:32)\n' +
+    '    at Module.m._compile (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:858:43)\n' +
+    '    at Module._extensions..js (internal/modules/cjs/loader.js:1157:10)\n' +
+    '    at Object.require.extensions.<computed> [as .ts] (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts:861:12)\n' +
+    '    at Module.load (internal/modules/cjs/loader.js:985:32)\n' +
+    '    at Function.Module._load (internal/modules/cjs/loader.js:878:14)\n' +
+    '    at Module.require (internal/modules/cjs/loader.js:1025:19)',
+  exception: true,
+  date: 'Mon May 03 2021 20:48:32 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 50808,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/muhweziaggrey/Desktop/projects/star-wars/server',
+    execPath: '/Users/muhweziaggrey/.nvm/versions/node/v12.18.4/bin/node',
+    version: 'v12.18.4',
+    argv: [
+      '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/.bin/ts-node',
+      '/Users/muhweziaggrey/Desktop/projects/star-wars/server/src/main.ts'
+    ],
+    memoryUsage: {
+      rss: 198529024,
+      heapTotal: 158298112,
+      heapUsed: 135376384,
+      external: 2909818,
+      arrayBuffers: 1052353
+    }
+  },
+  os: {
+    loadavg: [ 8.64794921875, 7.1669921875, 7.5654296875 ],
+    uptime: 42174
+  },
+  trace: [
+    {
+      column: 12,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts',
+      function: 'createTSError',
+      line: 434,
+      method: null,
+      native: false
+    },
+    {
+      column: 19,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts',
+      function: 'reportTSError',
+      line: 438,
+      method: null,
+      native: false
+    },
+    {
+      column: 36,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts',
+      function: 'getOutput',
+      line: 578,
+      method: null,
+      native: false
+    },
+    {
+      column: 32,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts',
+      function: 'Object.compile',
+      line: 775,
+      method: 'compile',
+      native: false
+    },
+    {
+      column: 43,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts',
+      function: 'Module.m._compile',
+      line: 858,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._extensions..js',
+      line: 1157,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 12,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/ts-node/src/index.ts',
+      function: 'Object.require.extensions.<computed> [as .ts]',
+      line: 861,
+      method: 'ts]',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.load',
+      line: 985,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 14,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module._load',
+      line: 878,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'internal/modules/cjs/loader.js',
+      function: 'Module.require',
+      line: 1025,
+      method: 'require',
+      native: false
+    }
+  ],
+  timestamp: '2021-05-03T17:48:32.544Z'
+}
+{
+  error: GraphQLError [Object]: Syntax Error: Expected Name, found "!".
+      at syntaxError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/error/syntaxError.js:15:10)
+      at Parser.expectToken (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1413:40)
+      at Parser.parseName (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:98:22)
+      at Parser.parseNamedType (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:674:18)
+      at Parser.parseTypeReference (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:652:19)
+      at Parser.parseInputValueDef (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:913:21)
+      at Parser.optionalMany (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1503:28)
+      at Parser.parseArgumentDefs (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:900:17)
+      at Parser.parseFieldDefinition (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:880:21)
+      at Parser.optionalMany (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1503:28) {
+    locations: [ { line: 16, column: 35 } ]
+  },
+  level: 'error',
+  message: 'uncaughtException: Syntax Error: Expected Name, found "!".\n' +
+    'GraphQLError: Syntax Error: Expected Name, found "!".\n' +
+    '    at syntaxError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/error/syntaxError.js:15:10)\n' +
+    '    at Parser.expectToken (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1413:40)\n' +
+    '    at Parser.parseName (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:98:22)\n' +
+    '    at Parser.parseNamedType (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:674:18)\n' +
+    '    at Parser.parseTypeReference (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:652:19)\n' +
+    '    at Parser.parseInputValueDef (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:913:21)\n' +
+    '    at Parser.optionalMany (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1503:28)\n' +
+    '    at Parser.parseArgumentDefs (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:900:17)\n' +
+    '    at Parser.parseFieldDefinition (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:880:21)\n' +
+    '    at Parser.optionalMany (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1503:28)',
+  stack: 'GraphQLError: Syntax Error: Expected Name, found "!".\n' +
+    '    at syntaxError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/error/syntaxError.js:15:10)\n' +
+    '    at Parser.expectToken (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1413:40)\n' +
+    '    at Parser.parseName (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:98:22)\n' +
+    '    at Parser.parseNamedType (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:674:18)\n' +
+    '    at Parser.parseTypeReference (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:652:19)\n' +
+    '    at Parser.parseInputValueDef (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:913:21)\n' +
+    '    at Parser.optionalMany (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1503:28)\n' +
+    '    at Parser.parseArgumentDefs (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:900:17)\n' +
+    '    at Parser.parseFieldDefinition (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:880:21)\n' +
+    '    at Parser.optionalMany (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1503:28)',
+  exception: true,
+  date: 'Mon May 03 2021 20:48:36 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 50829,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/muhweziaggrey/Desktop/projects/star-wars/server',
+    execPath: '/Users/muhweziaggrey/.nvm/versions/node/v12.18.4/bin/node',
+    version: 'v12.18.4',
+    argv: [
+      '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/.bin/ts-node',
+      '/Users/muhweziaggrey/Desktop/projects/star-wars/server/src/main.ts'
+    ],
+    memoryUsage: {
+      rss: 199208960,
+      heapTotal: 158560256,
+      heapUsed: 134663832,
+      external: 2942880,
+      arrayBuffers: 1042115
+    }
+  },
+  os: { loadavg: [ 8.1953125, 7.09765625, 7.53857421875 ], uptime: 42178 },
+  trace: [
+    {
+      column: 10,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/error/syntaxError.js',
+      function: 'syntaxError',
+      line: 15,
+      method: null,
+      native: false
+    },
+    {
+      column: 40,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js',
+      function: 'Parser.expectToken',
+      line: 1413,
+      method: 'expectToken',
+      native: false
+    },
+    {
+      column: 22,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js',
+      function: 'Parser.parseName',
+      line: 98,
+      method: 'parseName',
+      native: false
+    },
+    {
+      column: 18,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js',
+      function: 'Parser.parseNamedType',
+      line: 674,
+      method: 'parseNamedType',
+      native: false
+    },
+    {
+      column: 19,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js',
+      function: 'Parser.parseTypeReference',
+      line: 652,
+      method: 'parseTypeReference',
+      native: false
+    },
+    {
+      column: 21,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js',
+      function: 'Parser.parseInputValueDef',
+      line: 913,
+      method: 'parseInputValueDef',
+      native: false
+    },
+    {
+      column: 28,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js',
+      function: 'Parser.optionalMany',
+      line: 1503,
+      method: 'optionalMany',
+      native: false
+    },
+    {
+      column: 17,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js',
+      function: 'Parser.parseArgumentDefs',
+      line: 900,
+      method: 'parseArgumentDefs',
+      native: false
+    },
+    {
+      column: 21,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js',
+      function: 'Parser.parseFieldDefinition',
+      line: 880,
+      method: 'parseFieldDefinition',
+      native: false
+    },
+    {
+      column: 28,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js',
+      function: 'Parser.optionalMany',
+      line: 1503,
+      method: 'optionalMany',
+      native: false
+    }
+  ],
+  timestamp: '2021-05-03T17:48:36.936Z'
+}
+{
+  error: GraphQLError [Object]: Syntax Error: Expected Name, found "!".
+      at syntaxError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/error/syntaxError.js:15:10)
+      at Parser.expectToken (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1413:40)
+      at Parser.parseName (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:98:22)
+      at Parser.parseNamedType (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:674:18)
+      at Parser.parseTypeReference (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:652:19)
+      at Parser.parseInputValueDef (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:913:21)
+      at Parser.optionalMany (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1503:28)
+      at Parser.parseArgumentDefs (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:900:17)
+      at Parser.parseFieldDefinition (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:880:21)
+      at Parser.optionalMany (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1503:28) {
+    locations: [ { line: 16, column: 35 } ]
+  },
+  level: 'error',
+  message: 'uncaughtException: Syntax Error: Expected Name, found "!".\n' +
+    'GraphQLError: Syntax Error: Expected Name, found "!".\n' +
+    '    at syntaxError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/error/syntaxError.js:15:10)\n' +
+    '    at Parser.expectToken (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1413:40)\n' +
+    '    at Parser.parseName (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:98:22)\n' +
+    '    at Parser.parseNamedType (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:674:18)\n' +
+    '    at Parser.parseTypeReference (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:652:19)\n' +
+    '    at Parser.parseInputValueDef (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:913:21)\n' +
+    '    at Parser.optionalMany (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1503:28)\n' +
+    '    at Parser.parseArgumentDefs (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:900:17)\n' +
+    '    at Parser.parseFieldDefinition (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:880:21)\n' +
+    '    at Parser.optionalMany (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1503:28)',
+  stack: 'GraphQLError: Syntax Error: Expected Name, found "!".\n' +
+    '    at syntaxError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/error/syntaxError.js:15:10)\n' +
+    '    at Parser.expectToken (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1413:40)\n' +
+    '    at Parser.parseName (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:98:22)\n' +
+    '    at Parser.parseNamedType (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:674:18)\n' +
+    '    at Parser.parseTypeReference (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:652:19)\n' +
+    '    at Parser.parseInputValueDef (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:913:21)\n' +
+    '    at Parser.optionalMany (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1503:28)\n' +
+    '    at Parser.parseArgumentDefs (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:900:17)\n' +
+    '    at Parser.parseFieldDefinition (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:880:21)\n' +
+    '    at Parser.optionalMany (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1503:28)',
+  exception: true,
+  date: 'Mon May 03 2021 20:48:42 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 50889,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/muhweziaggrey/Desktop/projects/star-wars/server',
+    execPath: '/Users/muhweziaggrey/.nvm/versions/node/v12.18.4/bin/node',
+    version: 'v12.18.4',
+    argv: [
+      '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/.bin/ts-node',
+      '/Users/muhweziaggrey/Desktop/projects/star-wars/server/src/main.ts'
+    ],
+    memoryUsage: {
+      rss: 197881856,
+      heapTotal: 158822400,
+      heapUsed: 134691088,
+      external: 2942880,
+      arrayBuffers: 1042115
+    }
+  },
+  os: {
+    loadavg: [ 9.30029296875, 7.3447265625, 7.623046875 ],
+    uptime: 42184
+  },
+  trace: [
+    {
+      column: 10,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/error/syntaxError.js',
+      function: 'syntaxError',
+      line: 15,
+      method: null,
+      native: false
+    },
+    {
+      column: 40,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js',
+      function: 'Parser.expectToken',
+      line: 1413,
+      method: 'expectToken',
+      native: false
+    },
+    {
+      column: 22,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js',
+      function: 'Parser.parseName',
+      line: 98,
+      method: 'parseName',
+      native: false
+    },
+    {
+      column: 18,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js',
+      function: 'Parser.parseNamedType',
+      line: 674,
+      method: 'parseNamedType',
+      native: false
+    },
+    {
+      column: 19,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js',
+      function: 'Parser.parseTypeReference',
+      line: 652,
+      method: 'parseTypeReference',
+      native: false
+    },
+    {
+      column: 21,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js',
+      function: 'Parser.parseInputValueDef',
+      line: 913,
+      method: 'parseInputValueDef',
+      native: false
+    },
+    {
+      column: 28,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js',
+      function: 'Parser.optionalMany',
+      line: 1503,
+      method: 'optionalMany',
+      native: false
+    },
+    {
+      column: 17,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js',
+      function: 'Parser.parseArgumentDefs',
+      line: 900,
+      method: 'parseArgumentDefs',
+      native: false
+    },
+    {
+      column: 21,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js',
+      function: 'Parser.parseFieldDefinition',
+      line: 880,
+      method: 'parseFieldDefinition',
+      native: false
+    },
+    {
+      column: 28,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js',
+      function: 'Parser.optionalMany',
+      line: 1503,
+      method: 'optionalMany',
+      native: false
+    }
+  ],
+  timestamp: '2021-05-03T17:48:42.233Z'
+}
+{
+  error: GraphQLError [Object]: Syntax Error: Expected Name, found "!".
+      at syntaxError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/error/syntaxError.js:15:10)
+      at Parser.expectToken (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1413:40)
+      at Parser.parseName (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:98:22)
+      at Parser.parseNamedType (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:674:18)
+      at Parser.parseTypeReference (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:652:19)
+      at Parser.parseInputValueDef (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:913:21)
+      at Parser.optionalMany (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1503:28)
+      at Parser.parseArgumentDefs (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:900:17)
+      at Parser.parseFieldDefinition (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:880:21)
+      at Parser.optionalMany (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1503:28) {
+    locations: [ { line: 16, column: 35 } ]
+  },
+  level: 'error',
+  message: 'uncaughtException: Syntax Error: Expected Name, found "!".\n' +
+    'GraphQLError: Syntax Error: Expected Name, found "!".\n' +
+    '    at syntaxError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/error/syntaxError.js:15:10)\n' +
+    '    at Parser.expectToken (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1413:40)\n' +
+    '    at Parser.parseName (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:98:22)\n' +
+    '    at Parser.parseNamedType (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:674:18)\n' +
+    '    at Parser.parseTypeReference (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:652:19)\n' +
+    '    at Parser.parseInputValueDef (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:913:21)\n' +
+    '    at Parser.optionalMany (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1503:28)\n' +
+    '    at Parser.parseArgumentDefs (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:900:17)\n' +
+    '    at Parser.parseFieldDefinition (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:880:21)\n' +
+    '    at Parser.optionalMany (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1503:28)',
+  stack: 'GraphQLError: Syntax Error: Expected Name, found "!".\n' +
+    '    at syntaxError (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/error/syntaxError.js:15:10)\n' +
+    '    at Parser.expectToken (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1413:40)\n' +
+    '    at Parser.parseName (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:98:22)\n' +
+    '    at Parser.parseNamedType (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:674:18)\n' +
+    '    at Parser.parseTypeReference (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:652:19)\n' +
+    '    at Parser.parseInputValueDef (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:913:21)\n' +
+    '    at Parser.optionalMany (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1503:28)\n' +
+    '    at Parser.parseArgumentDefs (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:900:17)\n' +
+    '    at Parser.parseFieldDefinition (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:880:21)\n' +
+    '    at Parser.optionalMany (/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js:1503:28)',
+  exception: true,
+  date: 'Mon May 03 2021 20:48:51 GMT+0300 (East Africa Time)',
+  process: {
+    pid: 51042,
+    uid: 501,
+    gid: 20,
+    cwd: '/Users/muhweziaggrey/Desktop/projects/star-wars/server',
+    execPath: '/Users/muhweziaggrey/.nvm/versions/node/v12.18.4/bin/node',
+    version: 'v12.18.4',
+    argv: [
+      '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/.bin/ts-node',
+      '/Users/muhweziaggrey/Desktop/projects/star-wars/server/src/main.ts'
+    ],
+    memoryUsage: {
+      rss: 206635008,
+      heapTotal: 158035968,
+      heapUsed: 134664992,
+      external: 2959264,
+      arrayBuffers: 1058499
+    }
+  },
+  os: { loadavg: [ 8.0234375, 7.13525390625, 7.544921875 ], uptime: 42193 },
+  trace: [
+    {
+      column: 10,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/error/syntaxError.js',
+      function: 'syntaxError',
+      line: 15,
+      method: null,
+      native: false
+    },
+    {
+      column: 40,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js',
+      function: 'Parser.expectToken',
+      line: 1413,
+      method: 'expectToken',
+      native: false
+    },
+    {
+      column: 22,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js',
+      function: 'Parser.parseName',
+      line: 98,
+      method: 'parseName',
+      native: false
+    },
+    {
+      column: 18,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js',
+      function: 'Parser.parseNamedType',
+      line: 674,
+      method: 'parseNamedType',
+      native: false
+    },
+    {
+      column: 19,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js',
+      function: 'Parser.parseTypeReference',
+      line: 652,
+      method: 'parseTypeReference',
+      native: false
+    },
+    {
+      column: 21,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js',
+      function: 'Parser.parseInputValueDef',
+      line: 913,
+      method: 'parseInputValueDef',
+      native: false
+    },
+    {
+      column: 28,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js',
+      function: 'Parser.optionalMany',
+      line: 1503,
+      method: 'optionalMany',
+      native: false
+    },
+    {
+      column: 17,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js',
+      function: 'Parser.parseArgumentDefs',
+      line: 900,
+      method: 'parseArgumentDefs',
+      native: false
+    },
+    {
+      column: 21,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js',
+      function: 'Parser.parseFieldDefinition',
+      line: 880,
+      method: 'parseFieldDefinition',
+      native: false
+    },
+    {
+      column: 28,
+      file: '/Users/muhweziaggrey/Desktop/projects/star-wars/server/node_modules/graphql/language/parser.js',
+      function: 'Parser.optionalMany',
+      line: 1503,
+      method: 'optionalMany',
+      native: false
+    }
+  ],
+  timestamp: '2021-05-03T17:48:51.422Z'
+}

@@ -1,8 +1,10 @@
 import { People, PeopleResponse } from "../models/people.model";
 import axios from "../plugins/axios";
 
-export const getPeople = async (_parent:any, args: {page?: number}): Promise<PeopleResponse> => {
-    const {data} = await axios.get(`people?page=${args.page || 1}`);
+export const getPeople = async (_parent:any, args: {page: number, searchText?: string}): Promise<PeopleResponse> => {
+    const { searchText = "", page } = args;
+    const url = searchText ? `people?search=${searchText.toLowerCase()}` : `people?page=${page || 1}`;
+    const {data} = await axios.get(url);
     return data;
 };
 

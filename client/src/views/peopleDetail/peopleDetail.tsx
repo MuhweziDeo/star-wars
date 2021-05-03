@@ -7,9 +7,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import {
     Card,
-    StyledBody,
-    StyledAction,
-    StyledThumbnail,
+    StyledBody
 } from 'baseui/card';
 import { People } from '../peopleList/people.model';
 import { StyledLink } from 'baseui/link';

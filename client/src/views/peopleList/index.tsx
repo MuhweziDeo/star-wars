@@ -7,8 +7,8 @@ import { showLoader } from "../../store/loader/actions";
 import { PeopleResponse } from "./people.model";
 
 export const GET_PEOPLE_QUERY = gql`
-query getPeople($page: Int) {
-    people(page: $page) {
+query getPeople($page: Int, $searchText: String!) {
+    people(page: $page, searchText: $searchText) {
         count
         results {
             name
@@ -21,10 +21,12 @@ query getPeople($page: Int) {
 `
 export const PeopleListView = () => {
     const[page, setPage] = useState(1);
+    const[searchText, setSearchText] = useState("");
     const dispatch = useDispatch();
-    const {data, loading, error} = useQuery<PeopleResponse, {page: number}>(GET_PEOPLE_QUERY, {
+    const {data, loading, error} = useQuery<PeopleResponse, {page: number, searchText?: string}>(GET_PEOPLE_QUERY, {
         variables: {
-            page
+            page, 
+            searchText: searchText.trim().length ? searchText.trim() : "",
         }
     })
 
@@ -39,5 +41,7 @@ export const PeopleListView = () => {
             page={page}
             setPage={setPage}
             error={error}
+            searchText={searchText}
+            setSearchText={setSearchText}
     />)
 }
