@@ -1,1 +1,1 @@
-export { getPeople } from "./people.resolver";
+export { getPeople, getPersonDetails } from "./people.resolver";

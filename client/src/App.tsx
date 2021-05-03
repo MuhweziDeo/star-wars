@@ -7,7 +7,6 @@ import { ProgressBar } from "baseui/progress-bar";
 import Router from './router';
 import {useSelector} from "react-redux";
 import {RootState} from "./store";
-import AppNavBar from "./components/navigation";
 
 const engine = new Styletron();
 
@@ -16,7 +15,6 @@ function App() {
   return (
     <StyletronProvider value={engine}>
       <BaseProvider theme={LightTheme}>
-          <AppNavBar/>
         {loading &&  <ProgressBar infinite/>}
         <Router/>
       </BaseProvider>

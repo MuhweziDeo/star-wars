@@ -12,6 +12,7 @@ import { ApolloError } from "@apollo/client";
 
 import { PeopleResponse } from "./people.model";
 import { ContentLoader } from "../../components/contentLoader";
+import { Link } from "react-router-dom";
 
 export  interface Props {
     loading: boolean;
@@ -24,10 +25,7 @@ export  interface Props {
 export const PeopleList: React.FunctionComponent<Props> = ({data, loading,
                                                                page, setPage, error}) => {
     const getId = (index: number) => {
-      if(page === 1) {
-          return index + 1;
-      }
-      return ((data?.people?.results?.length || 0) * page) - (data?.people?.results?.length || 0) + (index + 1)
+      return (10 * page) - 10 + (index + 1)
     }
     const renderContent = useMemo(() => {
         return data?.people?.results.map((person,index) =>  <FlexGridItem key={index}>
@@ -41,9 +39,9 @@ export const PeopleList: React.FunctionComponent<Props> = ({data, loading,
                 <StyledAction>
                     <FlexGrid flexGridColumnCount={2}>
                         <FlexGridItem>
-                            <StyledLink href={`/${getId(index)}`}>
-                                View
-                            </StyledLink>
+                            <Link to={`/${getId(index)}`}>
+                                <StyledLink>View</StyledLink>
+                            </Link>
                         </FlexGridItem>
                        <FlexGridItem>
                            <Button size={SIZE.mini}>
@@ -64,7 +62,7 @@ export const PeopleList: React.FunctionComponent<Props> = ({data, loading,
             </Notification>}
             {loading && <ContentLoader contentLength={9}/>}
             {!loading && <FlexGrid
-                flexGridColumnCount={[1, 1, 3, 4]}
+                flexGridColumnCount={[1, 1, 2, 4]}
                 $style={() => ({
                     margin: '1rem'
                 })}
@@ -73,7 +71,7 @@ export const PeopleList: React.FunctionComponent<Props> = ({data, loading,
                 {renderContent}
             </FlexGrid>}
             <Pagination
-                numPages={Math.round((data?.people?.count || 82) /10)}
+                numPages={Math.ceil((data?.people?.count || 82) /10)}
                 currentPage={page}
                 onPageChange={({ nextPage }) => {
                     setPage(

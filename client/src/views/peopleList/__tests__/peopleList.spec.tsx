@@ -9,21 +9,6 @@ import { FlexGrid } from "baseui/flex-grid";
 import { Notification } from "baseui/notification";
 
 describe("Graphql PeopleList", () => {
-    it("should render", () => {
-        const component = TestRenderer.create(
-            <MockedProvider mocks={[]} addTypename={false}>
-                <PeopleList
-            loading
-            data={{people: {results: [{name: "test", gender: "male", height:"90", mass: "33", homeworld: "http://example.com"}], count: 1}}}
-            page={1}
-            setPage={() => {}}
-            error={ new ApolloError({networkError: new Error("error message")})}
-            />
-            </MockedProvider>
-        )
-        const tree = component.toJSON();
-        expect(tree).toBeDefined()
-    })
 
     it("should render", () => {
         const component = TestRenderer.create(
