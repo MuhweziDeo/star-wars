@@ -3,31 +3,32 @@ import { ApolloServer, gql } from "apollo-server-express";
 import { Request, Response } from "express";
 import winstonLogger from "./startup/logger";
 
-import { getPeople } from "./resolvers";
+import { getPeople, getPersonDetails } from "./resolvers";
 
 const typeDefs = gql`
-    type People {
-        name: String
-        height: String
-        mass: String
-        gender: String
-        homeworld: String
-    }
+  type People {
+      name: String
+      height: String
+      mass: String
+      gender: String
+      homeworld: String
+  }
     
-    type PeopleQueryResponse {
-        count: Int
-        results: [People]
-    }
-    scalar Date
+  type PeopleQueryResponse {
+      count: Int
+      results: [People]
+  }
     
   type Query {
-    people(page: Int ): PeopleQueryResponse  
+    people(page: Int ): PeopleQueryResponse
+    personDetail(personId: Int): People
   }
 `;
  
 const resolvers = {
   Query: {
-    people: getPeople
+    people: getPeople,
+    personDetail: getPersonDetails
   },
 };
 

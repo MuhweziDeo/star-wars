@@ -8,24 +8,23 @@ import {
     Delete,
     Upload
 } from "baseui/icon";
+import { StyledLink } from "baseui/link";
+import { Link } from "react-router-dom";
 
 export default () => {
     const [mainItems, setMainItems] = React.useState([
-        { icon: Upload, label: "Main A" },
+        { icon: Upload, label: "Fork Project" },
         {
-            active: true,
             icon: ChevronDown,
-            label: "Main B",
+            label: "Star Project",
             navExitIcon: Delete,
         }
     ]);
     return (
         <AppNavBar
-            title="Star Wars Viewer"
+            title={<Link to="/"><StyledLink>Star wars</StyledLink></Link>}
             mainItems={mainItems}
-            onMainItemSelect={item => {
-                // setMainItems(prev => setItemActive(prev, item));
-            }}
+            onMainItemSelect={item => {}}
             onUserItemSelect={item => console.log(item)}
         />
     );
