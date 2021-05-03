@@ -7,6 +7,7 @@ import TestRenderer from 'react-test-renderer'
 import { GET_PEOPLE_QUERY } from "..";
 import { FlexGrid } from "baseui/flex-grid";
 import { Notification } from "baseui/notification";
+import { Input } from "baseui/input";
 
 describe("Graphql PeopleList", () => {
 
@@ -14,11 +15,13 @@ describe("Graphql PeopleList", () => {
         const component = TestRenderer.create(
             <MockedProvider mocks={[]} addTypename={false}>
                 <PeopleList
-            loading
-            data={{people: {results: [{name: "test", gender: "male", height:"90", mass: "33", homeworld: "http://example.com"}], count: 1}}}
-            page={1}
-            setPage={() => {}}
-            error={ new ApolloError({networkError: new Error("error message")})}
+                    searchText="searchText"
+                    setSearchText={() => {}}
+                    loading
+                    data={{people: {results: [{name: "test", gender: "male", height:"90", mass: "33", homeworld: "http://example.com"}], count: 1}}}
+                    page={1}
+                    setPage={() => {}}
+                    error={ new ApolloError({networkError: new Error("error message")})}
             />
             </MockedProvider>
         )
@@ -39,11 +42,13 @@ describe("Graphql PeopleList", () => {
         const component = TestRenderer.create(
             <MockedProvider mocks={[mock]} addTypename={false}>
                 <PeopleList
-                loading={false}
-                data={undefined}
-                page={1}
-                setPage={() => {}}
-                error={ new ApolloError({networkError: new Error("error message")})}
+                    searchText="searchText"
+                    setSearchText={() => {}}
+                    loading={false}
+                    data={undefined}
+                    page={1}
+                    setPage={() => {}}
+                    error={ new ApolloError({networkError: new Error("error message")})}
                 />
             </MockedProvider>
         )
@@ -64,11 +69,13 @@ describe("Graphql PeopleList", () => {
         const component = TestRenderer.create(
             <MockedProvider mocks={[mock]} addTypename={false}>
                 <PeopleList
-                loading={false}
-                data={undefined}
-                page={1}
-                setPage={() => {}}
-                error={ new ApolloError({networkError: new Error("error message")})}
+                    searchText="searchText"
+                    setSearchText={() => {}}
+                    loading={false}
+                    data={undefined}
+                    page={1}
+                    setPage={() => {}}
+                    error={ new ApolloError({networkError: new Error("error message")})}
                 />
             </MockedProvider>
         )
@@ -83,11 +90,13 @@ describe("Graphql PeopleList", () => {
             setPage: () => {}
         }
         render(<PeopleList
-            loading
-            data={{people: {results: [{name: "test", gender: "male", height:"90", mass: "33", homeworld: "http://example.com"}], count: 1}}}
-            page={1}
-            setPage={handlers.setPage}
-            error={ new ApolloError({networkError: new Error("error message")})}
+                searchText="searchText"
+                setSearchText={() => {}}
+                loading
+                data={{people: {results: [{name: "test", gender: "male", height:"90", mass: "33", homeworld: "http://example.com"}], count: 1}}}
+                page={1}
+                setPage={handlers.setPage}
+                error={ new ApolloError({networkError: new Error("error message")})}
         />)
 
         const [loader] =  screen.queryAllByTestId("loader");
@@ -95,5 +104,27 @@ describe("Graphql PeopleList", () => {
         expect(loader.innerHTML).toContain("flex-grid-item");
         expect(loader.innerHTML).toContain("loader");
 
+    })
+
+    it("should call setSearch text", async () => {
+        const handlers = {
+            setPage: () => {}, setSearchText: () => {},
+        }
+        const spy = jest.spyOn(handlers, "setSearchText");
+        const component = TestRenderer.create(
+                <PeopleList
+                    searchText="searchText"
+                    setSearchText={handlers.setSearchText}
+                    loading
+                    data={{people: {results: [{name: "test", gender: "male", height:"90", mass: "33", homeworld: "http://example.com"}], count: 1}}}
+                    page={1}
+                    setPage={handlers.setPage}
+                    error={ new ApolloError({networkError: new Error("error message")})}
+            />
+        )
+        const input = component.root.findByType(Input);
+        input.props.onChange({target: {value: "search"}});
+        expect(spy).toBeCalled();
+        expect(spy).not.toHaveBeenCalledWith("search")
     })
 });
