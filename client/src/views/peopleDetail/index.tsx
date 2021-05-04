@@ -1,12 +1,10 @@
-import React, { useEffect } from 'react';
+import React, { Suspense, useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import { useQuery, gql } from "@apollo/client";
 
-import { PeopleDetail } from './peopleDetail';
 import { useParams } from 'react-router-dom';
 import { showLoader } from '../../store/loader/actions';
 import { People } from '../peopleList/people.model';
-
 
 export const GET_PERSON_QUERY = gql`
 query getPersonDetail($personId: Int) {
@@ -18,6 +16,8 @@ query getPersonDetail($personId: Int) {
         gender
     }
 } `
+
+const PeopleDetail = React.lazy(() => import("./peopleDetail"));
 
 export const PeopleDetailView = () => {
     const { personId } = useParams<{personId: string}>();
@@ -31,10 +31,12 @@ export const PeopleDetailView = () => {
     }, [loading])
 
     return (
-        <PeopleDetail
-            data={data}
-            loading={loading}
-            error={error}
-        />
+        <Suspense fallback={<div>Loading...</div>}>
+            <PeopleDetail
+                data={data}
+                loading={loading}
+                error={error}
+            />
+        </Suspense>
     )
 }

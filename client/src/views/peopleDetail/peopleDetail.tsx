@@ -11,6 +11,7 @@ import {
 } from 'baseui/card';
 import { People } from '../peopleList/people.model';
 import { StyledLink } from 'baseui/link';
+import { Container } from '../../components/container';
 
 export interface Props {
     loading: boolean;
@@ -22,7 +23,6 @@ export const Centered = styled('div', {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    height: '100%',
     marginTop: '10px'
 });
 
@@ -41,7 +41,7 @@ export const PeopleDetail: React.FunctionComponent<Props> = ({ loading, data }) 
         </>)
     }
     return (
-        <>
+        <Container>
         {renderBackButton()}
         <Centered>
         <Card
@@ -55,6 +55,7 @@ export const PeopleDetail: React.FunctionComponent<Props> = ({ loading, data }) 
             </StyledBody>
             </Card>
         </Centered>
-        </>
+        </Container>
     )
 }
+export default PeopleDetail;

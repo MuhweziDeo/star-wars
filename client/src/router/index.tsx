@@ -5,11 +5,18 @@ import {
     Route
 } from "react-router-dom";
 import { PeopleDetailView } from "../views/peopleDetail";
+import {styled} from 'baseui';
 import { PeopleListView } from '../views/peopleList';
 import AppNavBar from "../components/navigation";
 
+const StyledDiv = styled("div", ({$theme}) => {
+    return {
+        backgroundColor: $theme.colors.background
+    }
+})
 export default () => {
     return (
+        <StyledDiv>
         <Router>
             <AppNavBar/>
             <Switch>
@@ -26,5 +33,6 @@ export default () => {
                 />      
             </Switch>
         </Router>
+        </StyledDiv>
     )
 }

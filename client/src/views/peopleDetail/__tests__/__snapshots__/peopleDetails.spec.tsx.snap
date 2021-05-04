@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`PeopleDetails should render without crushing 1`] = `
-Array [
+<div
+  className=""
+>
   <div
     className=""
   >
@@ -40,7 +42,7 @@ Array [
         Back
       </button>
     </a>
-  </div>,
+  </div>
   <div
     className=""
   >
@@ -86,6 +88,6 @@ Array [
         </div>
       </div>
     </section>
-  </div>,
-]
+  </div>
+</div>
 `;

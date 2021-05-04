@@ -6,17 +6,16 @@ import {
     StyledAction,
 } from "baseui/card";
 import { StyledLink } from "baseui/link";
-import { Button, SIZE } from 'baseui/button';
 import { Notification, KIND } from 'baseui/notification';
 import { Pagination } from "baseui/pagination";
 import { ApolloError } from "@apollo/client";
 import { Link } from "react-router-dom";
 import { Input, SIZE as InputSize } from "baseui/input";
+import { Search } from "baseui/icon";
 import { PeopleResponse } from "./people.model";
 import { ContentLoader } from "../../components/contentLoader";
 import { Centered } from "../peopleDetail/peopleDetail";
-import { Search } from "baseui/icon";
-
+import { Container } from "../../components/container";
 
 export interface Props {
     loading: boolean;
@@ -52,7 +51,7 @@ export const PeopleList: React.FunctionComponent<Props> = ({ data, loading,
     }, [data?.people?.results])
 
     return (
-        <>
+        <Container>
             <Centered>
                 <Input
                     value={searchText}
@@ -87,6 +86,6 @@ export const PeopleList: React.FunctionComponent<Props> = ({ data, loading,
                     );
                 }}
             />
-        </>
+        </Container>
     )
 }

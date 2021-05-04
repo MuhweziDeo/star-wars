@@ -119,12 +119,12 @@ describe("Graphql PeopleList", () => {
                     data={{people: {results: [{name: "test", gender: "male", height:"90", mass: "33", homeworld: "http://example.com"}], count: 1}}}
                     page={1}
                     setPage={handlers.setPage}
-                    error={ new ApolloError({networkError: new Error("error message")})}
+                    error={undefined}
             />
         )
         const input = component.root.findByType(Input);
         input.props.onChange({target: {value: "search"}});
         expect(spy).toBeCalled();
-        expect(spy).not.toHaveBeenCalledWith("search")
+        expect(spy).toHaveBeenCalledWith("search")
     })
 });
