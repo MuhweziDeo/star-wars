@@ -1130,3 +1130,8 @@
   level: 'info',
   timestamp: '2021-05-03T17:54:30.445Z'
 }
+{
+  message: 'dev server up listening on PORT 5000 and graphql is on /graphql',
+  level: 'info',
+  timestamp: '2021-05-04T17:28:06.395Z'
+}
