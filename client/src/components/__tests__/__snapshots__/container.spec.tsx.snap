@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container should render without crushing 1`] = `
+<div
+  className=""
+>
+  <p>
+    hello
+  </p>
+</div>
+`;
