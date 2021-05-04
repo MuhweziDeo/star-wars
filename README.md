@@ -88,7 +88,8 @@ To get a local copy up and running follow these simple example steps.
 
 This is an example of how to list things you need to use the software and how to install them.
 * Node >= v 12
-  
+    Project require Node Version 12 and upwards
+    
     Download Node from [here](https://nodejs.org/en/) 
   ```sh
   npm install npm@latest -g
